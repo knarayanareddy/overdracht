@@ -1,0 +1,7 @@
+[
+ {"id":"F1","claim":"Doktersassistenten nemen een gestructureerde overdracht over zonder alles na te lopen.","test":"QRETYPE","expected":true,"if_false":"De beoogde tijdwinst bestaat niet zoals ontworpen. Herontwerp de praktijkkant als leesbare review met het dossier als bron; onderzoek aansprakelijkheid en acceptatieprotocollen."},
+ {"id":"F2","claim":"Huisartsen ervaren tijdwinst binnen een bestaand consult.","test":"QGPTIME","expected":true,"if_false":"Verkoop geen minutenbesparing. Onderzoek vermeden fouten en klachten als alternatieve waardepropositie."},
+ {"id":"F3","claim":"Kopers geloven de waardepropositie sterker dan de mensen die het werk uitvoeren.","test":"QDIVERGE","expected":true,"if_false":"De aanname over verschillende verwachtingen van kopers en uitvoerders wordt niet ondersteund; onderzoek waarom de groepen overeenkomen."},
+ {"id":"F4","claim":"De populatie prefereert eigen woorden boven een volledig formulier.","test":"QOWN","expected":true,"if_false":"Heroverweeg het formulier en behoud alleen het medicatiewijzigingsdeel van het verhaal."},
+ {"id":"F5","claim":"Een gedeeld dossier blijft acceptabel na een overtypfout.","test":"QSHARED","expected":true,"if_false":"Maak van de auditketen een exportartefact in plaats van een gedeeld dossier; onderzoek institutionele bereidheid."}
+]
