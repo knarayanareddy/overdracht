@@ -1,0 +1,50 @@
+{
+  "synthetic": true,
+  "warning": "Geen officiële SmPC. Geen klinische equivalentie afgeleid.",
+  "fields": [
+    {
+      "doc": "data/smpc/paracetamol.json",
+      "field": "substance",
+      "value": "paracetamol",
+      "date": "2026-11-11",
+      "sha256": "04fbef81c1bc9010a842f7b7c83beb3bdba292194058016d27555bb4fa61d324",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/paracetamol.json",
+      "field": "strength",
+      "value": "500 mg",
+      "date": "2026-11-11",
+      "sha256": "4352abe22a7100b45b93aa15d73f7094c7ef90fa43afccf83335cb25bfe405ac",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/paracetamol.json",
+      "field": "form",
+      "value": "zetpil",
+      "date": "2026-11-11",
+      "sha256": "7cddafb763cde8ca59920b9541e7b3845630a4d36016c49dad3a5bef47b32cd9",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/paracetamol.json",
+      "field": "packages",
+      "value": [
+        "30 stuks",
+        "60 stuks",
+        "90 stuks"
+      ],
+      "date": "2026-11-11",
+      "sha256": "bbbbf2747e44298b9eefa5a0a9e84a6aea52f54f87cdfe378919b96b084b051a",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/paracetamol.json",
+      "field": "nl_registered",
+      "value": true,
+      "date": "2026-11-11",
+      "sha256": "9310c5285e5b4d67902bdff05a5c1c428308f8866f2042f1e56624363dd79ae5",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    }
+  ]
+}

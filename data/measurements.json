@@ -1,0 +1,67 @@
+{
+  "synthetic": true,
+  "gp_reading": {
+    "median_seconds": null,
+    "n": 0,
+    "measured_at": null,
+    "method": "Nog niet gemeten met een huisarts. Word-count/200wpm is alleen een schatting."
+  },
+  "practice_acceptance": {
+    "median_seconds": null,
+    "n": 0,
+    "measured_at": null,
+    "method": "Nog niet gemeten in een praktijkstudie."
+  },
+  "fixtures": [
+    {
+      "id": "R-01",
+      "words": 76,
+      "estimated_seconds_at_200wpm": 23
+    },
+    {
+      "id": "R-02",
+      "words": 47,
+      "estimated_seconds_at_200wpm": 14
+    },
+    {
+      "id": "R-03",
+      "words": 52,
+      "estimated_seconds_at_200wpm": 16
+    },
+    {
+      "id": "R-04",
+      "words": 56,
+      "estimated_seconds_at_200wpm": 17
+    },
+    {
+      "id": "R-05",
+      "words": 59,
+      "estimated_seconds_at_200wpm": 18
+    },
+    {
+      "id": "R-06",
+      "words": 60,
+      "estimated_seconds_at_200wpm": 18
+    },
+    {
+      "id": "R-07",
+      "words": 55,
+      "estimated_seconds_at_200wpm": 17
+    },
+    {
+      "id": "R-08",
+      "words": 56,
+      "estimated_seconds_at_200wpm": 17
+    },
+    {
+      "id": "R-09",
+      "words": 50,
+      "estimated_seconds_at_200wpm": 15
+    },
+    {
+      "id": "R-10",
+      "words": 42,
+      "estimated_seconds_at_200wpm": 13
+    }
+  ]
+}

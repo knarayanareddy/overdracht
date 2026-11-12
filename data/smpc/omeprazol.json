@@ -1,0 +1,50 @@
+{
+  "synthetic": true,
+  "warning": "Geen officiële SmPC. Geen klinische equivalentie afgeleid.",
+  "fields": [
+    {
+      "doc": "data/smpc/omeprazol.json",
+      "field": "substance",
+      "value": "omeprazol",
+      "date": "2026-11-11",
+      "sha256": "dffc3ea4611f5b53a9b0a9d3e4270b1f6421b76c9e18435488dc1cf998d4bd95",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/omeprazol.json",
+      "field": "strength",
+      "value": "20 mg",
+      "date": "2026-11-11",
+      "sha256": "cb165bc71ca281f4ce5be4b937843328deab004f8eee36e0c739f1adb62a09fa",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/omeprazol.json",
+      "field": "form",
+      "value": "capsule",
+      "date": "2026-11-11",
+      "sha256": "5bd75ec186a65419d9c8b635f5fdf8a25f0bc4c4388ebabc11426537a87d7b19",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/omeprazol.json",
+      "field": "packages",
+      "value": [
+        "30 stuks",
+        "60 stuks",
+        "90 stuks"
+      ],
+      "date": "2026-11-11",
+      "sha256": "e1ec81654302bec457f58cdd3142eed08beb8568b7f8f2355834f7d8f55f1531",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/omeprazol.json",
+      "field": "nl_registered",
+      "value": true,
+      "date": "2026-11-11",
+      "sha256": "1d52b11fdef40b565f9cda6242f2b5290c0d38f4bdfe874aa9cb164821e984c1",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "field": "klacht",
+    "question": "Wat wilt u bespreken met de huisarts?",
+    "optional": false
+  },
+  {
+    "field": "verloop",
+    "question": "Hoe is dat sinds uw vorige bezoek gegaan?",
+    "optional": true
+  },
+  {
+    "field": "geprobeerd",
+    "question": "Wat heeft u zelf geprobeerd?",
+    "optional": true
+  },
+  {
+    "field": "context",
+    "question": "Wat is belangrijk om erbij te vertellen?",
+    "optional": true
+  },
+  {
+    "field": "verwachting",
+    "question": "Wat hoopt u van dit gesprek?",
+    "optional": true
+  },
+  {
+    "field": "medicatie",
+    "question": "Wat is er veranderd met uw medicijnen, en wat merkt u daarvan?",
+    "optional": true
+  }
+]

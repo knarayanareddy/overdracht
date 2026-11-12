@@ -1,0 +1,50 @@
+{
+  "synthetic": true,
+  "warning": "Geen officiële SmPC. Geen klinische equivalentie afgeleid.",
+  "fields": [
+    {
+      "doc": "data/smpc/atorvastatine.json",
+      "field": "substance",
+      "value": "atorvastatine",
+      "date": "2026-11-11",
+      "sha256": "bbb69008bf742124b539a1f26c36523c818ccd964f57f2d53465cb9c797d4219",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/atorvastatine.json",
+      "field": "strength",
+      "value": "20 mg",
+      "date": "2026-11-11",
+      "sha256": "bdc12cdd2c0c400c6c0009c62b81c3b51fdf795e71c15f0b445da9a73c4e1350",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/atorvastatine.json",
+      "field": "form",
+      "value": "tablet",
+      "date": "2026-11-11",
+      "sha256": "75bbf70ebb0323e509610600bec4a285d3fa08cc18f7313898cdbf6fa37dda6f",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/atorvastatine.json",
+      "field": "packages",
+      "value": [
+        "30 stuks",
+        "60 stuks",
+        "90 stuks"
+      ],
+      "date": "2026-11-11",
+      "sha256": "1ca2b0a7623c2592bc73ecc1c26507510399246a4e770c11bb8c5fce184a53e4",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/atorvastatine.json",
+      "field": "nl_registered",
+      "value": true,
+      "date": "2026-11-11",
+      "sha256": "10f2f54d2d5ba51ec50e0c18081f8c960633c8a5ba0d8d14bac67049130b31a0",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    }
+  ]
+}

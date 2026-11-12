@@ -1,0 +1,50 @@
+{
+  "synthetic": true,
+  "warning": "Geen officiële SmPC. Geen klinische equivalentie afgeleid.",
+  "fields": [
+    {
+      "doc": "data/smpc/amoxicilline-clavulaanzuur.json",
+      "field": "substance",
+      "value": "amoxicilline/clavulaanzuur",
+      "date": "2026-11-11",
+      "sha256": "8f97687014f15a2ec7248aef9e0af1cdace799a4f6ee35497b45c42516cac82a",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/amoxicilline-clavulaanzuur.json",
+      "field": "strength",
+      "value": "500/125 mg",
+      "date": "2026-11-11",
+      "sha256": "b37d365909cee52391adc8eb45c13e6ea673cb949c0c2a8f58c21570ab0a3495",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/amoxicilline-clavulaanzuur.json",
+      "field": "form",
+      "value": "tablet",
+      "date": "2026-11-11",
+      "sha256": "9eba545a5b069a97b54b50f6abc052d0b1a4f772b081e17e871b9455a804f413",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/amoxicilline-clavulaanzuur.json",
+      "field": "packages",
+      "value": [
+        "30 stuks",
+        "60 stuks",
+        "90 stuks"
+      ],
+      "date": "2026-11-11",
+      "sha256": "eeec8b6cde9ae731d37fe7e86f20ac8b1b05b64b0e99f9ceb13098a396c954ba",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/amoxicilline-clavulaanzuur.json",
+      "field": "nl_registered",
+      "value": true,
+      "date": "2026-11-11",
+      "sha256": "95083ccb3c3012fe6d745ec313431e72860c6589d25d785d8f747d08ef971091",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    }
+  ]
+}

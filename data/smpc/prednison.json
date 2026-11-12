@@ -1,0 +1,50 @@
+{
+  "synthetic": true,
+  "warning": "Geen officiële SmPC. Geen klinische equivalentie afgeleid.",
+  "fields": [
+    {
+      "doc": "data/smpc/prednison.json",
+      "field": "substance",
+      "value": "prednison",
+      "date": "2026-11-11",
+      "sha256": "8aefd2f37e2a32f5b2c75d937485976922a95f86e10c30dc4963cf445d9c7b4a",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/prednison.json",
+      "field": "strength",
+      "value": "5 mg",
+      "date": "2026-11-11",
+      "sha256": "a00d8eb884f964b42587c9a39d7409e51b1ff913cf2ded137cf3e85d197ef58d",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/prednison.json",
+      "field": "form",
+      "value": "tablet",
+      "date": "2026-11-11",
+      "sha256": "d2b9b3165ad5d3753535750ad993d7d69d5a637a80a399b486ee34746a89ec17",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/prednison.json",
+      "field": "packages",
+      "value": [
+        "30 stuks",
+        "60 stuks",
+        "90 stuks"
+      ],
+      "date": "2026-11-11",
+      "sha256": "44237c71a96650ef2098908e976d72f60d8643eb1e0a2a6c8b4b6fbefd05db8d",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/prednison.json",
+      "field": "nl_registered",
+      "value": true,
+      "date": "2026-11-11",
+      "sha256": "2955dee90ac84aebb6a8deb67c5cf728db36d78e780dced7d07ff1c4f6b1560b",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    }
+  ]
+}

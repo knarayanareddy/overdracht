@@ -1,0 +1,50 @@
+{
+  "synthetic": true,
+  "warning": "Geen officiële SmPC. Geen klinische equivalentie afgeleid.",
+  "fields": [
+    {
+      "doc": "data/smpc/naproxen.json",
+      "field": "substance",
+      "value": "naproxen",
+      "date": "2026-11-11",
+      "sha256": "9db90d1590b104318cf6399a60c15aa09e5c598fc1e9b6ee52fedafd5901fed6",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/naproxen.json",
+      "field": "strength",
+      "value": "500 mg",
+      "date": "2026-11-11",
+      "sha256": "17e017eefa7a6ad9b03ed70fb63cb75e4c27da15612425c87797301d6f1b9816",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/naproxen.json",
+      "field": "form",
+      "value": "tablet",
+      "date": "2026-11-11",
+      "sha256": "3987a5a6c88f3cd07d44bad5704dc3f4fa4fdf48a36c1a38edadc33bd5a4c801",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/naproxen.json",
+      "field": "packages",
+      "value": [
+        "30 stuks",
+        "60 stuks",
+        "90 stuks"
+      ],
+      "date": "2026-11-11",
+      "sha256": "d92feac515345fcc409020f30d9401554d262e51ecb840d22755631f33346cb5",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/naproxen.json",
+      "field": "nl_registered",
+      "value": true,
+      "date": "2026-11-11",
+      "sha256": "aee8412ea152741a28ca9c7d2c71bd2441c8af8a9dc50806cf1510892f51ff80",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    }
+  ]
+}

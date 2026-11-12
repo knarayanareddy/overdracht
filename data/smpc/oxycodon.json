@@ -1,0 +1,50 @@
+{
+  "synthetic": true,
+  "warning": "Geen officiële SmPC. Geen klinische equivalentie afgeleid.",
+  "fields": [
+    {
+      "doc": "data/smpc/oxycodon.json",
+      "field": "substance",
+      "value": "oxycodon",
+      "date": "2026-11-11",
+      "sha256": "6152a0b35e53128a4d77eb7213fe3ff38ad37ecd4fa12d1d3e17014eb7cb8fd5",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/oxycodon.json",
+      "field": "strength",
+      "value": "10 mg",
+      "date": "2026-11-11",
+      "sha256": "c02a8fd1e6b286c1301e43987b3f1dcf2b779310dc606273e530d92579bcf8c4",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/oxycodon.json",
+      "field": "form",
+      "value": "tablet",
+      "date": "2026-11-11",
+      "sha256": "13e6cce83a7184a75794da5ce3b7f0762e1e8a2dd8a99c02df2767e6c152fc7e",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/oxycodon.json",
+      "field": "packages",
+      "value": [
+        "30 stuks",
+        "60 stuks",
+        "90 stuks"
+      ],
+      "date": "2026-11-11",
+      "sha256": "be45cc625dec50b41c491c046c0797f5a4c2cc92c4d753c48fe1d6a43859b0cb",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/oxycodon.json",
+      "field": "nl_registered",
+      "value": true,
+      "date": "2026-11-11",
+      "sha256": "5d1ed144f3e1cf7ea641290be2a0adffe480e8df316fc1b7dd4e939087f93189",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    }
+  ]
+}

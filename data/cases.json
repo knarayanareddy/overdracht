@@ -1,0 +1,635 @@
+[
+  {
+    "case_id": "C-001",
+    "substance": "salbutamol",
+    "atc": "DEMO-01",
+    "strength": "100 mcg",
+    "form": "inhalatiepoeder",
+    "package": "30 stuks",
+    "patient_flags": [],
+    "insurer": "VGZ",
+    "notice_ref": "data/notices/C-001.txt",
+    "age_band": "18-64",
+    "practice_id": "PR-01",
+    "title_nl": "Andere verpakking, dezelfde stof",
+    "unavailable_product": "Salbutamol CF 100 mcg inhalatiepoeder",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": []
+    }
+  },
+  {
+    "case_id": "C-002",
+    "substance": "metformine",
+    "atc": "DEMO-02",
+    "strength": "500 mg",
+    "form": "tablet",
+    "package": "30 stuks",
+    "patient_flags": [],
+    "insurer": "Menzis",
+    "notice_ref": "data/notices/C-002.txt",
+    "age_band": "18-64",
+    "practice_id": "PR-01",
+    "title_nl": "Andere verpakking, dezelfde stof",
+    "unavailable_product": "Metformine Sandoz 500 mg tablet",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": []
+    }
+  },
+  {
+    "case_id": "C-003",
+    "substance": "atorvastatine",
+    "atc": "DEMO-03",
+    "strength": "20 mg",
+    "form": "tablet",
+    "package": "30 stuks",
+    "patient_flags": [],
+    "insurer": "CZ",
+    "notice_ref": "data/notices/C-003.txt",
+    "age_band": "18-64",
+    "practice_id": "PR-02",
+    "title_nl": "Andere verpakking, dezelfde stof",
+    "unavailable_product": "Atorvastatine CF 20 mg tablet",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": []
+    }
+  },
+  {
+    "case_id": "C-004",
+    "substance": "metformine",
+    "atc": "DEMO-04",
+    "strength": "500 mg",
+    "form": "tablet",
+    "package": "30 stuks",
+    "patient_flags": [],
+    "insurer": "CZ",
+    "notice_ref": "data/notices/C-004.txt",
+    "age_band": "18-64",
+    "practice_id": "PR-01",
+    "title_nl": "Metformine 500 mg — ander merk",
+    "unavailable_product": "Metformine Sandoz 500 mg tablet",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": []
+    }
+  },
+  {
+    "case_id": "C-005",
+    "substance": "amoxicilline",
+    "atc": "DEMO-05",
+    "strength": "500 mg",
+    "form": "capsule",
+    "package": "30 stuks",
+    "patient_flags": [],
+    "insurer": "Menzis",
+    "notice_ref": "data/notices/C-005.txt",
+    "age_band": "65+",
+    "practice_id": "PR-01",
+    "title_nl": "Andere verpakking, dezelfde stof",
+    "unavailable_product": "Amoxicilline CF 500 mg capsule",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": []
+    }
+  },
+  {
+    "case_id": "C-006",
+    "substance": "levothyroxine",
+    "atc": "DEMO-06",
+    "strength": "50 mcg",
+    "form": "tablet",
+    "package": "30 stuks",
+    "patient_flags": [],
+    "insurer": "CZ",
+    "notice_ref": "data/notices/C-006.txt",
+    "age_band": "18-64",
+    "practice_id": "PR-02",
+    "title_nl": "Andere verpakking, dezelfde stof",
+    "unavailable_product": "Levothyroxine Teva 50 mcg tablet",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": []
+    }
+  },
+  {
+    "case_id": "C-007",
+    "substance": "sertraline",
+    "atc": "DEMO-07",
+    "strength": "50 mg",
+    "form": "tablet",
+    "package": "30 stuks",
+    "patient_flags": [],
+    "insurer": "VGZ",
+    "notice_ref": "data/notices/C-007.txt",
+    "age_band": "18-64",
+    "practice_id": "PR-01",
+    "title_nl": "Andere verpakking, dezelfde stof",
+    "unavailable_product": "Sertraline Sandoz 50 mg tablet",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": []
+    }
+  },
+  {
+    "case_id": "C-008",
+    "substance": "oxycodon",
+    "atc": "DEMO-08",
+    "strength": "10 mg",
+    "form": "tablet",
+    "package": "30 stuks",
+    "patient_flags": [],
+    "insurer": "Menzis",
+    "notice_ref": "data/notices/C-008.txt",
+    "age_band": "18-64",
+    "practice_id": "PR-01",
+    "title_nl": "Andere verpakking, dezelfde stof",
+    "unavailable_product": "Oxycodon CF 10 mg tablet",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": []
+    }
+  },
+  {
+    "case_id": "C-009",
+    "substance": "furosemide",
+    "atc": "DEMO-09",
+    "strength": "40 mg",
+    "form": "tablet",
+    "package": "30 stuks",
+    "patient_flags": [],
+    "insurer": "CZ",
+    "notice_ref": "data/notices/C-009.txt",
+    "age_band": "18-64",
+    "practice_id": "PR-02",
+    "title_nl": "Andere verpakking, dezelfde stof",
+    "unavailable_product": "Furosemide Teva 40 mg tablet",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": []
+    }
+  },
+  {
+    "case_id": "C-010",
+    "substance": "prednison",
+    "atc": "DEMO-10",
+    "strength": "5 mg",
+    "form": "tablet",
+    "package": "30 stuks",
+    "patient_flags": [],
+    "insurer": "VGZ",
+    "notice_ref": "data/notices/C-010.txt",
+    "age_band": "65+",
+    "practice_id": "PR-01",
+    "title_nl": "Andere verpakking, dezelfde stof",
+    "unavailable_product": "Prednison CF 5 mg tablet",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": []
+    }
+  },
+  {
+    "case_id": "C-011",
+    "substance": "insuline glargine",
+    "atc": "DEMO-11",
+    "strength": "100 E/ml",
+    "form": "injectievloeistof",
+    "package": "60 stuks",
+    "patient_flags": [],
+    "insurer": "Menzis",
+    "notice_ref": "data/notices/C-011.txt",
+    "age_band": "18-64",
+    "practice_id": "PR-01",
+    "title_nl": "Verpakkingswijziging beoordelen",
+    "unavailable_product": "Insuline glargine Demo 100 E/ml injectievloeistof",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": []
+    }
+  },
+  {
+    "case_id": "C-012",
+    "substance": "methylfenidaat",
+    "atc": "DEMO-12",
+    "strength": "10 mg",
+    "form": "tablet",
+    "package": "60 stuks",
+    "patient_flags": [],
+    "insurer": "CZ",
+    "notice_ref": "data/notices/C-012.txt",
+    "age_band": "18-64",
+    "practice_id": "PR-02",
+    "title_nl": "Verpakkingswijziging beoordelen",
+    "unavailable_product": "Methylfenidaat CF 10 mg tablet",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": []
+    }
+  },
+  {
+    "case_id": "C-013",
+    "substance": "tamsulosine",
+    "atc": "DEMO-13",
+    "strength": "0,4 mg",
+    "form": "capsule",
+    "package": "60 stuks",
+    "patient_flags": [],
+    "insurer": "VGZ",
+    "notice_ref": "data/notices/C-013.txt",
+    "age_band": "18-64",
+    "practice_id": "PR-01",
+    "title_nl": "Verpakkingswijziging beoordelen",
+    "unavailable_product": "Tamsulosine Teva 0,4 mg capsule",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": []
+    }
+  },
+  {
+    "case_id": "C-014",
+    "substance": "escitalopram",
+    "atc": "DEMO-14",
+    "strength": "10 mg",
+    "form": "tablet",
+    "package": "60 stuks",
+    "patient_flags": [],
+    "insurer": "Menzis",
+    "notice_ref": "data/notices/C-014.txt",
+    "age_band": "18-64",
+    "practice_id": "PR-01",
+    "title_nl": "Verpakkingswijziging beoordelen",
+    "unavailable_product": "Escitalopram CF 10 mg tablet",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": []
+    }
+  },
+  {
+    "case_id": "C-015",
+    "substance": "naproxen",
+    "atc": "DEMO-15",
+    "strength": "500 mg",
+    "form": "tablet",
+    "package": "60 stuks",
+    "patient_flags": [],
+    "insurer": "CZ",
+    "notice_ref": "data/notices/C-015.txt",
+    "age_band": "65+",
+    "practice_id": "PR-02",
+    "title_nl": "Verpakkingswijziging beoordelen",
+    "unavailable_product": "Naproxen Sandoz 500 mg tablet",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": []
+    }
+  },
+  {
+    "case_id": "C-016",
+    "substance": "paracetamol",
+    "atc": "DEMO-16",
+    "strength": "500 mg",
+    "form": "zetpil",
+    "package": "60 stuks",
+    "patient_flags": [],
+    "insurer": "VGZ",
+    "notice_ref": "data/notices/C-016.txt",
+    "age_band": "18-64",
+    "practice_id": "PR-01",
+    "title_nl": "Verpakkingswijziging beoordelen",
+    "unavailable_product": "Paracetamol CF 500 mg zetpil",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": []
+    }
+  },
+  {
+    "case_id": "C-017",
+    "substance": "salbutamol",
+    "atc": "DEMO-01",
+    "strength": "100 mcg",
+    "form": "inhalatiepoeder",
+    "package": "60 stuks",
+    "patient_flags": [],
+    "insurer": "CZ",
+    "notice_ref": "data/notices/C-017.txt",
+    "age_band": "18-64",
+    "practice_id": "PR-01",
+    "title_nl": "Salbutamol 100 mcg — andere verpakking",
+    "unavailable_product": "Salbutamol CF 100 mcg inhalatiepoeder",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": [
+        "P-STR-01",
+        "P-IMPORT-01"
+      ]
+    }
+  },
+  {
+    "case_id": "C-018",
+    "substance": "hydrochloorthiazide",
+    "atc": "DEMO-18",
+    "strength": "25 mg",
+    "form": "tablet",
+    "package": "60 stuks",
+    "patient_flags": [],
+    "insurer": "CZ",
+    "notice_ref": "data/notices/C-018.txt",
+    "age_band": "18-64",
+    "practice_id": "PR-02",
+    "title_nl": "Verpakkingswijziging beoordelen",
+    "unavailable_product": "Hydrochloorthiazide Teva 25 mg tablet",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": []
+    }
+  },
+  {
+    "case_id": "C-019",
+    "substance": "pantoprazol",
+    "atc": "DEMO-19",
+    "strength": "40 mg",
+    "form": "tablet",
+    "package": "60 stuks",
+    "patient_flags": [],
+    "insurer": "VGZ",
+    "notice_ref": "data/notices/C-019.txt",
+    "age_band": "18-64",
+    "practice_id": "PR-01",
+    "title_nl": "Verpakkingswijziging beoordelen",
+    "unavailable_product": "Pantoprazol Sandoz 40 mg tablet",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": []
+    }
+  },
+  {
+    "case_id": "C-020",
+    "substance": "azitromycine",
+    "atc": "DEMO-20",
+    "strength": "500 mg",
+    "form": "tablet",
+    "package": "60 stuks",
+    "patient_flags": [],
+    "insurer": "Menzis",
+    "notice_ref": "data/notices/C-020.txt",
+    "age_band": "65+",
+    "practice_id": "PR-01",
+    "title_nl": "Verpakkingswijziging beoordelen",
+    "unavailable_product": "Azitromycine CF 500 mg tablet",
+    "expected": {
+      "valid_min": 1,
+      "valid_max": 9,
+      "must_reject_rules": []
+    }
+  },
+  {
+    "case_id": "C-021",
+    "substance": "salbutamol",
+    "atc": "DEMO-01",
+    "strength": "100 mcg",
+    "form": "inhalatiepoeder",
+    "package": "30 stuks",
+    "patient_flags": [],
+    "insurer": "CZ",
+    "notice_ref": "data/notices/C-021.txt",
+    "age_band": "18-64",
+    "practice_id": "PR-02",
+    "title_nl": "Andere werkzame stof gevraagd",
+    "unavailable_product": "Salbutamol CF 100 mcg inhalatiepoeder",
+    "expected": {
+      "valid_min": 0,
+      "valid_max": 0,
+      "must_reject_rules": [
+        "P-SUB-01"
+      ]
+    },
+    "scenario": "therapeutic"
+  },
+  {
+    "case_id": "C-022",
+    "substance": "oxycodon",
+    "atc": "DEMO-02",
+    "strength": "10 mg",
+    "form": "tablet",
+    "package": "30 stuks",
+    "patient_flags": [
+      "pediatrisch"
+    ],
+    "insurer": "VGZ",
+    "notice_ref": "data/notices/C-022.txt",
+    "age_band": "0-11",
+    "practice_id": "PR-01",
+    "title_nl": "Pediatrische vlag — formulier geweigerd",
+    "unavailable_product": "Oxycodon CF 10 mg tablet",
+    "expected": {
+      "valid_min": 0,
+      "valid_max": 0,
+      "must_reject_rules": [
+        "P-PAEDI-01"
+      ]
+    }
+  },
+  {
+    "case_id": "C-023",
+    "substance": "salbutamol",
+    "atc": "DEMO-03",
+    "strength": "100 mcg",
+    "form": "inhalatiepoeder",
+    "package": "30 stuks",
+    "patient_flags": [],
+    "insurer": "Menzis",
+    "notice_ref": "data/notices/C-023.txt",
+    "age_band": "18-64",
+    "practice_id": "PR-01",
+    "title_nl": "Import zonder registratiebewijs",
+    "unavailable_product": "Salbutamol CF 100 mcg inhalatiepoeder",
+    "expected": {
+      "valid_min": 0,
+      "valid_max": 0,
+      "must_reject_rules": [
+        "P-IMPORT-01"
+      ]
+    },
+    "scenario": "import_only"
+  },
+  {
+    "case_id": "C-024",
+    "substance": "metformine",
+    "atc": "DEMO-04",
+    "strength": "500 mg",
+    "form": "tablet",
+    "package": "30 stuks",
+    "patient_flags": [
+      "renaal"
+    ],
+    "insurer": "CZ",
+    "notice_ref": "data/notices/C-024.txt",
+    "age_band": "18-64",
+    "practice_id": "PR-02",
+    "title_nl": "Nierfunctievlag — niet automatisch",
+    "unavailable_product": "Metformine Sandoz 500 mg tablet",
+    "expected": {
+      "valid_min": 0,
+      "valid_max": 0,
+      "must_reject_rules": [
+        "P-CI-01"
+      ]
+    }
+  },
+  {
+    "case_id": "C-025",
+    "substance": "onbekende-stof",
+    "atc": "DEMO-05",
+    "strength": "500 mg",
+    "form": "capsule",
+    "package": "30 stuks",
+    "patient_flags": [],
+    "insurer": "VGZ",
+    "notice_ref": "data/notices/C-025.txt",
+    "age_band": "65+",
+    "practice_id": "PR-01",
+    "title_nl": "Onbekende werkzame stof",
+    "unavailable_product": "Amoxicilline CF 500 mg capsule",
+    "expected": {
+      "valid_min": 0,
+      "valid_max": 0,
+      "must_reject_rules": [
+        "P-UNKNOWN-01"
+      ]
+    }
+  },
+  {
+    "case_id": "C-026",
+    "substance": "amoxicilline",
+    "atc": "DEMO-06",
+    "strength": "500 mg",
+    "form": "capsule",
+    "package": "30 stuks",
+    "patient_flags": [
+      "allergie_penicilline"
+    ],
+    "insurer": "Menzis",
+    "notice_ref": "data/notices/C-026.txt",
+    "age_band": "18-64",
+    "practice_id": "PR-01",
+    "title_nl": "Allergievlag — apotheker nodig",
+    "unavailable_product": "Amoxicilline CF 500 mg capsule",
+    "expected": {
+      "valid_min": 0,
+      "valid_max": 0,
+      "must_reject_rules": [
+        "P-CI-01"
+      ]
+    }
+  },
+  {
+    "case_id": "C-027",
+    "substance": "sertraline",
+    "atc": "DEMO-07",
+    "strength": "50 mg",
+    "form": "tablet",
+    "package": "30 stuks",
+    "patient_flags": [
+      "zwangerschap"
+    ],
+    "insurer": "CZ",
+    "notice_ref": "data/notices/C-027.txt",
+    "age_band": "18-64",
+    "practice_id": "PR-02",
+    "title_nl": "Geen geldige keten — mens nodig",
+    "unavailable_product": "Sertraline Sandoz 50 mg tablet",
+    "expected": {
+      "valid_min": 0,
+      "valid_max": 0,
+      "must_reject_rules": [
+        "P-CI-01"
+      ]
+    }
+  },
+  {
+    "case_id": "C-028",
+    "substance": "atorvastatine",
+    "atc": "DEMO-08",
+    "strength": "20 mg",
+    "form": "tablet",
+    "package": "30 stuks",
+    "patient_flags": [
+      "leverfunctie"
+    ],
+    "insurer": "VGZ",
+    "notice_ref": "data/notices/C-028.txt",
+    "age_band": "18-64",
+    "practice_id": "PR-01",
+    "title_nl": "Leverfunctievlag — niet automatisch",
+    "unavailable_product": "Atorvastatine CF 20 mg tablet",
+    "expected": {
+      "valid_min": 0,
+      "valid_max": 0,
+      "must_reject_rules": [
+        "P-CI-01"
+      ]
+    }
+  },
+  {
+    "case_id": "C-029",
+    "substance": "furosemide",
+    "atc": "DEMO-09",
+    "strength": "40 mg",
+    "form": "tablet",
+    "package": "30 stuks",
+    "patient_flags": [],
+    "insurer": "Menzis",
+    "notice_ref": "data/notices/C-029.txt",
+    "age_band": "18-64",
+    "practice_id": "PR-01",
+    "title_nl": "Preferentielijst verouderd",
+    "unavailable_product": "Furosemide Teva 40 mg tablet",
+    "expected": {
+      "valid_min": 0,
+      "valid_max": 0,
+      "must_reject_rules": []
+    },
+    "scenario": "stale"
+  },
+  {
+    "case_id": "C-030",
+    "substance": "prednison",
+    "atc": "DEMO-10",
+    "strength": "5 mg",
+    "form": "tablet",
+    "package": "30 stuks",
+    "patient_flags": [],
+    "insurer": "CZ",
+    "notice_ref": "data/notices/C-030.txt",
+    "age_band": "65+",
+    "practice_id": "PR-02",
+    "title_nl": "Bron ontbreekt — geen aanname",
+    "unavailable_product": "Prednison CF 5 mg tablet",
+    "expected": {
+      "valid_min": 0,
+      "valid_max": 0,
+      "must_reject_rules": []
+    },
+    "scenario": "missing_source"
+  }
+]

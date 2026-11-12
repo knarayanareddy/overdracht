@@ -1,0 +1,4 @@
+'use client';
+import { CircleAlert } from 'lucide-react';
+import Link from 'next/link';
+export default function ErrorPage({reset}:{error:Error;reset:()=>void}){return <div className="panel summary-gate"><div className="panel-body"><CircleAlert size={28}/><h2>De werkruimte is niet beschikbaar</h2><p>Controleer of de lokale server actief is. Als u de auditdemo heeft gewijzigd, herstel die eerst via de auditketen.</p><div className="button-row"><button className="button primary" onClick={reset}>Opnieuw proberen</button><Link className="button" href="/verify">Naar de auditketen</Link></div></div></div>;}

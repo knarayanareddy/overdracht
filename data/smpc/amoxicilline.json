@@ -1,0 +1,50 @@
+{
+  "synthetic": true,
+  "warning": "Geen officiële SmPC. Geen klinische equivalentie afgeleid.",
+  "fields": [
+    {
+      "doc": "data/smpc/amoxicilline.json",
+      "field": "substance",
+      "value": "amoxicilline",
+      "date": "2026-11-11",
+      "sha256": "b5ea5f347b61f8cfebfb811fef39fc0033726ef666487e55c12c3e718b67fa2c",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/amoxicilline.json",
+      "field": "strength",
+      "value": "500 mg",
+      "date": "2026-11-11",
+      "sha256": "ffaa85d3ee8ebff7bc7a3bd3fcc999250eedfe8b720ed7a6a9008bb3611c86d1",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/amoxicilline.json",
+      "field": "form",
+      "value": "capsule",
+      "date": "2026-11-11",
+      "sha256": "f358b9a68d7a7d45b1222361c464f2ffd6d202d1b2ff0a59c2afbd2064765899",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/amoxicilline.json",
+      "field": "packages",
+      "value": [
+        "30 stuks",
+        "60 stuks",
+        "90 stuks"
+      ],
+      "date": "2026-11-11",
+      "sha256": "8da39bbcb2e7ffca6001e20977fce14bf18bef3349a5ede9604d6716ccb19b87",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/amoxicilline.json",
+      "field": "nl_registered",
+      "value": true,
+      "date": "2026-11-11",
+      "sha256": "a5f99d3edc6f380e28da9f8f08012a40d27d4c986eac91d61def23aa113fcf69",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    }
+  ]
+}

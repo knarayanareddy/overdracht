@@ -1,0 +1,27 @@
+{
+  "synthetic": true,
+  "insurer": "CZ",
+  "list": "Synthetische preferentielijst CZ",
+  "peildatum": "2026-11-11",
+  "entries": {
+    "salbutamol|100 mcg|inhalatiepoeder": "vergoed",
+    "metformine|500 mg|tablet": "vergoed",
+    "atorvastatine|20 mg|tablet": "vergoed",
+    "amoxicilline|500 mg|capsule": "vergoed",
+    "levothyroxine|50 mcg|tablet": "vergoed",
+    "sertraline|50 mg|tablet": "vergoed",
+    "oxycodon|10 mg|tablet": "vergoed",
+    "furosemide|40 mg|tablet": "vergoed",
+    "prednison|5 mg|tablet": "vergoed",
+    "insuline glargine|100 E/ml|injectievloeistof": "vergoed",
+    "methylfenidaat|10 mg|tablet": "vergoed",
+    "tamsulosine|0,4 mg|capsule": "vergoed",
+    "escitalopram|10 mg|tablet": "vergoed",
+    "naproxen|500 mg|tablet": "vergoed",
+    "paracetamol|500 mg|zetpil": "vergoed",
+    "hydrochloorthiazide|25 mg|tablet": "vergoed",
+    "pantoprazol|40 mg|tablet": "niet_vergoed",
+    "azitromycine|500 mg|tablet": "vergoed",
+    "onbekende-stof|500 mg|capsule": "vergoed"
+  }
+}

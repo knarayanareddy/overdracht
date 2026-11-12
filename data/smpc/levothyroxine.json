@@ -1,0 +1,50 @@
+{
+  "synthetic": true,
+  "warning": "Geen officiële SmPC. Geen klinische equivalentie afgeleid.",
+  "fields": [
+    {
+      "doc": "data/smpc/levothyroxine.json",
+      "field": "substance",
+      "value": "levothyroxine",
+      "date": "2026-11-11",
+      "sha256": "b3f4975995078fb78fffd91586dcb953aa54bad1dc4e806b7a54a0a63a52ccd2",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/levothyroxine.json",
+      "field": "strength",
+      "value": "50 mcg",
+      "date": "2026-11-11",
+      "sha256": "37864cab659bb856f5353345ef1f7e68ac9dd61ba0e4f379ee6c1eaf37d88056",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/levothyroxine.json",
+      "field": "form",
+      "value": "tablet",
+      "date": "2026-11-11",
+      "sha256": "d6e8126cb89d859d73e320aa48febf8ed810a0d3a2228b55e4bd18579b3e829f",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/levothyroxine.json",
+      "field": "packages",
+      "value": [
+        "30 stuks",
+        "60 stuks",
+        "90 stuks"
+      ],
+      "date": "2026-11-11",
+      "sha256": "a80d02b6b8ed038be769f6fc225aeeec01e98de18ff031e74219eee3d7ed04ff",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/levothyroxine.json",
+      "field": "nl_registered",
+      "value": true,
+      "date": "2026-11-11",
+      "sha256": "15f13d50b976aba1902571d45b710665b7f366d33990626f2c7e5ceadb236905",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    }
+  ]
+}

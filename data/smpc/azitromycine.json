@@ -1,0 +1,50 @@
+{
+  "synthetic": true,
+  "warning": "Geen officiële SmPC. Geen klinische equivalentie afgeleid.",
+  "fields": [
+    {
+      "doc": "data/smpc/azitromycine.json",
+      "field": "substance",
+      "value": "azitromycine",
+      "date": "2026-11-11",
+      "sha256": "87b699997ab4068cec455610136ff3ab35688463484982a4ab23e62676f9d48c",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/azitromycine.json",
+      "field": "strength",
+      "value": "500 mg",
+      "date": "2026-11-11",
+      "sha256": "30c75cc9788ff71c4bc06bde5ce5da72c6ec34e331ef311384e41c489c07c337",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/azitromycine.json",
+      "field": "form",
+      "value": "tablet",
+      "date": "2026-11-11",
+      "sha256": "362a58f9084990ce6c53b38cbac4fc943a607c9f8877e2ff0baa052cf10ae3a8",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/azitromycine.json",
+      "field": "packages",
+      "value": [
+        "30 stuks",
+        "60 stuks",
+        "90 stuks"
+      ],
+      "date": "2026-11-11",
+      "sha256": "14bf9c7f65013fccbbede47dfc63cf3a2d86f43cc433005b3c7bccb04ccb36a9",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/azitromycine.json",
+      "field": "nl_registered",
+      "value": true,
+      "date": "2026-11-11",
+      "sha256": "26117854f29902c1bb97cb03363feea32ee001048dded13b1de5ddf9c00ed90c",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    }
+  ]
+}

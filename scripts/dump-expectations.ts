@@ -1,0 +1,10 @@
+import { writeFileSync } from 'node:fs';
+import { data } from '../src/domain/store';
+import { generateChains } from '../src/domain/gate';
+import { extractStory } from '../src/domain/intake';
+import { matchStoryToChange } from '../src/domain/story';
+import type { Handover } from '../src/domain/types';
+const records=data.cases.map(c=>{const r=generateChains(c,data.table,data.preferences);return {case_id:c.case_id,expected:c.expected,valid:r.chains.filter(v=>v.status==='geldig').length,refused:r.refusals.length,rules:[...new Set(r.refusals.map(v=>v.reject_rule))],top:r.top};});
+const stories=data.stories.map(s=>{const draft=extractStory(s,data.substances);const h={case_id:s.case_id} as Handover;const substance=data.cases.find(c=>c.case_id===s.case_id)?.substance||'';return {story_id:s.story_id,case_id:s.case_id,blocked:draft.blocked,gaps:draft.gaps.length,consistency:draft.blocked?null:matchStoryToChange(s,h,substance).consistency};});
+const output={synthetic:true,generated_from:'data/cases.json + data/stories.json',records,stories,coverage:{cases:records.length,with_valid_chain:records.filter(r=>r.valid>0).length,zero_valid_chain:records.filter(r=>r.valid===0).length}};
+writeFileSync('data/expectations.json',JSON.stringify(output,null,2));console.log(`Expectations dumped: ${records.length} cases, ${stories.length} stories, coverage ${output.coverage.with_valid_chain}/${records.length}.`);
