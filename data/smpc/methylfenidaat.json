@@ -1,0 +1,50 @@
+{
+  "synthetic": true,
+  "warning": "Geen officiële SmPC. Geen klinische equivalentie afgeleid.",
+  "fields": [
+    {
+      "doc": "data/smpc/methylfenidaat.json",
+      "field": "substance",
+      "value": "methylfenidaat",
+      "date": "2026-11-11",
+      "sha256": "7aa84728ea3941ca64bab50263cfa6ceb974540df995a7421f42ef79fbc2100a",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/methylfenidaat.json",
+      "field": "strength",
+      "value": "10 mg",
+      "date": "2026-11-11",
+      "sha256": "190843472399f305d3102819cdef7f6b8ea176768587fac5c09491b41fe2b1f3",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/methylfenidaat.json",
+      "field": "form",
+      "value": "tablet",
+      "date": "2026-11-11",
+      "sha256": "1441cd081f7b89f9f83ff58290b6e4052fb3ca21e05907a895e0df8fa4726647",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/methylfenidaat.json",
+      "field": "packages",
+      "value": [
+        "30 stuks",
+        "60 stuks",
+        "90 stuks"
+      ],
+      "date": "2026-11-11",
+      "sha256": "253c97c2dc3f79a710a41c041fff3cc4ec01d0820623f11eb48cdbfbfa2b1391",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/methylfenidaat.json",
+      "field": "nl_registered",
+      "value": true,
+      "date": "2026-11-11",
+      "sha256": "3e6631878c240b892ef9ec36018a8c3ebc01342c3bbcc2ee96cfdfa3169f2535",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    }
+  ]
+}

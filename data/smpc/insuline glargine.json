@@ -1,0 +1,50 @@
+{
+  "synthetic": true,
+  "warning": "Geen officiële SmPC. Geen klinische equivalentie afgeleid.",
+  "fields": [
+    {
+      "doc": "data/smpc/insuline glargine.json",
+      "field": "substance",
+      "value": "insuline glargine",
+      "date": "2026-11-11",
+      "sha256": "5c62b51cef5737e7fba9e37c067fe0e4ec8b4dda3a08ae029d42612c88219150",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/insuline glargine.json",
+      "field": "strength",
+      "value": "100 E/ml",
+      "date": "2026-11-11",
+      "sha256": "0d904a839aaf97b8f43d992ec40d25ec24dbff2a1f1ae2f7525b94e94d4416be",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/insuline glargine.json",
+      "field": "form",
+      "value": "injectievloeistof",
+      "date": "2026-11-11",
+      "sha256": "3951e14eadec60f691e0fcdc47a625c251206b911602a6e26cffbdee145c8e31",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/insuline glargine.json",
+      "field": "packages",
+      "value": [
+        "30 stuks",
+        "60 stuks",
+        "90 stuks"
+      ],
+      "date": "2026-11-11",
+      "sha256": "2b5ada6cdef147606c3baf8bff6812b3b479c363e04994080468dcfcb55011d0",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/insuline glargine.json",
+      "field": "nl_registered",
+      "value": true,
+      "date": "2026-11-11",
+      "sha256": "e33393469da53fd07f383bcfa180b58fff8912a448413bed77c000932bbe87b8",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    }
+  ]
+}

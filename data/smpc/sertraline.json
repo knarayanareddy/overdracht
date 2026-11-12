@@ -1,0 +1,50 @@
+{
+  "synthetic": true,
+  "warning": "Geen officiële SmPC. Geen klinische equivalentie afgeleid.",
+  "fields": [
+    {
+      "doc": "data/smpc/sertraline.json",
+      "field": "substance",
+      "value": "sertraline",
+      "date": "2026-11-11",
+      "sha256": "1995e1b98205d38181994a9796fb93eecbb7bb200b64d283de033054090f3402",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/sertraline.json",
+      "field": "strength",
+      "value": "50 mg",
+      "date": "2026-11-11",
+      "sha256": "1f38619dfdd829fc22a984d96a53b4711f4910263139dad487e9d8c850e1d2e0",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/sertraline.json",
+      "field": "form",
+      "value": "tablet",
+      "date": "2026-11-11",
+      "sha256": "42075de5626e7fb2989f49f53aa2f44b938fa4c4b9a767cb7a3d1dd15c3f7c47",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/sertraline.json",
+      "field": "packages",
+      "value": [
+        "30 stuks",
+        "60 stuks",
+        "90 stuks"
+      ],
+      "date": "2026-11-11",
+      "sha256": "5e03e2ac29636a841e0cfe3d1fde23687154a7883cb43b7c8230b01f86445bfa",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/sertraline.json",
+      "field": "nl_registered",
+      "value": true,
+      "date": "2026-11-11",
+      "sha256": "a942ae7b3cf760a5c311dc9f461c763af71a6af1b36c76b5ef1a911f826c46ba",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    }
+  ]
+}

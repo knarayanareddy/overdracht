@@ -1,0 +1,50 @@
+{
+  "synthetic": true,
+  "warning": "Geen officiële SmPC. Geen klinische equivalentie afgeleid.",
+  "fields": [
+    {
+      "doc": "data/smpc/hydrochloorthiazide.json",
+      "field": "substance",
+      "value": "hydrochloorthiazide",
+      "date": "2026-11-11",
+      "sha256": "931725db0828f9e94b1fc7058ed87e65b5f897b0e7437a049b96df3fd3b63ca0",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/hydrochloorthiazide.json",
+      "field": "strength",
+      "value": "25 mg",
+      "date": "2026-11-11",
+      "sha256": "a27511fabc943541881cb17ce0cdfe4bf9b24343a25488dd3dc4b11a4270f0fc",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/hydrochloorthiazide.json",
+      "field": "form",
+      "value": "tablet",
+      "date": "2026-11-11",
+      "sha256": "7c910752f1a59dbdef859399447d7950a147b6bffce48a0c5d3d6b90a632f3b3",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/hydrochloorthiazide.json",
+      "field": "packages",
+      "value": [
+        "30 stuks",
+        "60 stuks",
+        "90 stuks"
+      ],
+      "date": "2026-11-11",
+      "sha256": "a57f9820bc731b0651ca87d2fd6f54f84471738a84b3626b6a74640d791960d3",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/hydrochloorthiazide.json",
+      "field": "nl_registered",
+      "value": true,
+      "date": "2026-11-11",
+      "sha256": "53e6764689ca4c6fae254074e0ef9deec5bacde416286f05d9a66dc0ecc6e910",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    }
+  ]
+}

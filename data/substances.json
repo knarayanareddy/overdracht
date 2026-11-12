@@ -1,0 +1,1985 @@
+{
+  "salbutamol": {
+    "substance": "salbutamol",
+    "atc": "DEMO-01",
+    "sources": [
+      {
+        "doc": "data/smpc/salbutamol.json",
+        "field": "substance",
+        "value": "salbutamol",
+        "date": "2026-11-11",
+        "sha256": "11bdb3f812eb3c7b2eccb5c5edc4c1eeeeddc7595383a83956db483ee14fb739",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/salbutamol.json",
+        "field": "strength",
+        "value": "100 mcg",
+        "date": "2026-11-11",
+        "sha256": "bfadab2aa7f2d7c2f8fa2bd32967e1d5ccae531d66056d4153582f67652a6085",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/salbutamol.json",
+        "field": "form",
+        "value": "inhalatiepoeder",
+        "date": "2026-11-11",
+        "sha256": "73520b54e1d69e8acf1b86ba8d5304faa90a2f71457be7c8b6aaf533947fae01",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/salbutamol.json",
+        "field": "packages",
+        "value": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "date": "2026-11-11",
+        "sha256": "1b89d93da6c6c687d295109585a1c995aaa628b6c4e4967ab80776abeb110988",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/salbutamol.json",
+        "field": "nl_registered",
+        "value": true,
+        "date": "2026-11-11",
+        "sha256": "6a8c63bb9aa80db51635b22b2bfcfd57ba48648d0670fd6d89ef77072667cd13",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      }
+    ],
+    "products": [
+      {
+        "product": "Salbutamol CF 100 mcg inhalatiepoeder",
+        "substance": "salbutamol",
+        "strength": "100 mcg",
+        "form": "inhalatiepoeder",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/salbutamol.json"
+      },
+      {
+        "product": "Salbutamol Demo B 100 mcg inhalatiepoeder",
+        "substance": "salbutamol",
+        "strength": "100 mcg",
+        "form": "inhalatiepoeder",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/salbutamol.json"
+      },
+      {
+        "product": "Salbutamol Demo 100 mcg aerosol",
+        "substance": "salbutamol",
+        "strength": "100 mcg",
+        "form": "aerosol",
+        "packages": [
+          "200 doses"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/salbutamol.json"
+      },
+      {
+        "product": "Salbutamol Demo import 100 mcg inhalatiepoeder",
+        "substance": "salbutamol",
+        "strength": "100 mcg",
+        "form": "inhalatiepoeder",
+        "packages": [
+          "60 stuks"
+        ],
+        "nl_registered": false,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/salbutamol.json"
+      },
+      {
+        "product": "Salbutamol Demo 2 mg/5 ml drank",
+        "substance": "salbutamol",
+        "strength": "2 mg/5 ml",
+        "form": "drank",
+        "packages": [
+          "150 ml"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/salbutamol.json"
+      }
+    ],
+    "dose_interval_equivalence": {
+      "inhalatiepoeder|aerosol": {
+        "equivalent": null,
+        "rule": "P-STR-01",
+        "note_nl": "Equivalentie tussen deze toedieningsvormen is niet vastgesteld in deze demo. De apotheker beoordeelt dit.",
+        "source": {
+          "doc": "data/smpc/salbutamol.json",
+          "field": "dose_interval_equivalence",
+          "value": null,
+          "date": "2026-11-11",
+          "sha256": "683fa630fcc8b8ffa192d379ac6b833822124779def2e6d9463ee86164c5ea10",
+          "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+        }
+      },
+      "inhalatiepoeder|drank": {
+        "equivalent": null,
+        "rule": "P-STR-01",
+        "note_nl": "Equivalentie tussen deze toedieningsvormen is niet vastgesteld in deze demo. De apotheker beoordeelt dit.",
+        "source": {
+          "doc": "data/smpc/salbutamol.json",
+          "field": "dose_interval_equivalence",
+          "value": null,
+          "date": "2026-11-11",
+          "sha256": "683fa630fcc8b8ffa192d379ac6b833822124779def2e6d9463ee86164c5ea10",
+          "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+        }
+      }
+    },
+    "contra_indications": {}
+  },
+  "metformine": {
+    "substance": "metformine",
+    "atc": "DEMO-02",
+    "sources": [
+      {
+        "doc": "data/smpc/metformine.json",
+        "field": "substance",
+        "value": "metformine",
+        "date": "2026-11-11",
+        "sha256": "3ff441adea9ccd1ff1664e109ba1f0538974b5cd9fa12a909cdccb2155922f41",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/metformine.json",
+        "field": "strength",
+        "value": "500 mg",
+        "date": "2026-11-11",
+        "sha256": "e7afaa309ed8d1e9f7d47547c86b6fc74f61d212e6d23af30c3d2e54e8143d1b",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/metformine.json",
+        "field": "form",
+        "value": "tablet",
+        "date": "2026-11-11",
+        "sha256": "f9f04954896bb5ddfaeb86d14168a58726d2d10ea3d1c98208fff22b6110ce67",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/metformine.json",
+        "field": "packages",
+        "value": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "date": "2026-11-11",
+        "sha256": "9d328dff670bc29282b20f06d328d0b309a431b94d45618618a79e6b465836d7",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/metformine.json",
+        "field": "nl_registered",
+        "value": true,
+        "date": "2026-11-11",
+        "sha256": "bd27dcae965075c140b0b70cae15be318b211f194ec6d858e761b0bd046cc4ff",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      }
+    ],
+    "products": [
+      {
+        "product": "Metformine Sandoz 500 mg tablet",
+        "substance": "metformine",
+        "strength": "500 mg",
+        "form": "tablet",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/metformine.json"
+      },
+      {
+        "product": "Metformine Demo A 500 mg tablet",
+        "substance": "metformine",
+        "strength": "500 mg",
+        "form": "tablet",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/metformine.json"
+      }
+    ],
+    "dose_interval_equivalence": {
+      "tablet|capsule": {
+        "equivalent": null,
+        "rule": "P-STR-01",
+        "note_nl": "Equivalentie tussen deze toedieningsvormen is niet vastgesteld in deze demo. De apotheker beoordeelt dit.",
+        "source": {
+          "doc": "data/smpc/metformine.json",
+          "field": "dose_interval_equivalence",
+          "value": null,
+          "date": "2026-11-11",
+          "sha256": "63b7f2023c1c0d67ff0c03851c5b9ee98248087e512999288d6753b108780d6b",
+          "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+        }
+      }
+    },
+    "contra_indications": {
+      "renaal": true
+    }
+  },
+  "atorvastatine": {
+    "substance": "atorvastatine",
+    "atc": "DEMO-03",
+    "sources": [
+      {
+        "doc": "data/smpc/atorvastatine.json",
+        "field": "substance",
+        "value": "atorvastatine",
+        "date": "2026-11-11",
+        "sha256": "bbb69008bf742124b539a1f26c36523c818ccd964f57f2d53465cb9c797d4219",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/atorvastatine.json",
+        "field": "strength",
+        "value": "20 mg",
+        "date": "2026-11-11",
+        "sha256": "bdc12cdd2c0c400c6c0009c62b81c3b51fdf795e71c15f0b445da9a73c4e1350",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/atorvastatine.json",
+        "field": "form",
+        "value": "tablet",
+        "date": "2026-11-11",
+        "sha256": "75bbf70ebb0323e509610600bec4a285d3fa08cc18f7313898cdbf6fa37dda6f",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/atorvastatine.json",
+        "field": "packages",
+        "value": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "date": "2026-11-11",
+        "sha256": "1ca2b0a7623c2592bc73ecc1c26507510399246a4e770c11bb8c5fce184a53e4",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/atorvastatine.json",
+        "field": "nl_registered",
+        "value": true,
+        "date": "2026-11-11",
+        "sha256": "10f2f54d2d5ba51ec50e0c18081f8c960633c8a5ba0d8d14bac67049130b31a0",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      }
+    ],
+    "products": [
+      {
+        "product": "Atorvastatine CF 20 mg tablet",
+        "substance": "atorvastatine",
+        "strength": "20 mg",
+        "form": "tablet",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/atorvastatine.json"
+      },
+      {
+        "product": "Atorvastatine Demo B 20 mg tablet",
+        "substance": "atorvastatine",
+        "strength": "20 mg",
+        "form": "tablet",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/atorvastatine.json"
+      }
+    ],
+    "dose_interval_equivalence": {
+      "tablet|capsule": {
+        "equivalent": null,
+        "rule": "P-STR-01",
+        "note_nl": "Equivalentie tussen deze toedieningsvormen is niet vastgesteld in deze demo. De apotheker beoordeelt dit.",
+        "source": {
+          "doc": "data/smpc/atorvastatine.json",
+          "field": "dose_interval_equivalence",
+          "value": null,
+          "date": "2026-11-11",
+          "sha256": "49bd0fdffd8506d585e8d506ea2ecac6755bb57b5b3299524ee3cf20009564b1",
+          "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+        }
+      }
+    },
+    "contra_indications": {
+      "leverfunctie": true
+    }
+  },
+  "omeprazol": {
+    "substance": "omeprazol",
+    "atc": "DEMO-04",
+    "sources": [
+      {
+        "doc": "data/smpc/omeprazol.json",
+        "field": "substance",
+        "value": "omeprazol",
+        "date": "2026-11-11",
+        "sha256": "dffc3ea4611f5b53a9b0a9d3e4270b1f6421b76c9e18435488dc1cf998d4bd95",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/omeprazol.json",
+        "field": "strength",
+        "value": "20 mg",
+        "date": "2026-11-11",
+        "sha256": "cb165bc71ca281f4ce5be4b937843328deab004f8eee36e0c739f1adb62a09fa",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/omeprazol.json",
+        "field": "form",
+        "value": "capsule",
+        "date": "2026-11-11",
+        "sha256": "5bd75ec186a65419d9c8b635f5fdf8a25f0bc4c4388ebabc11426537a87d7b19",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/omeprazol.json",
+        "field": "packages",
+        "value": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "date": "2026-11-11",
+        "sha256": "e1ec81654302bec457f58cdd3142eed08beb8568b7f8f2355834f7d8f55f1531",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/omeprazol.json",
+        "field": "nl_registered",
+        "value": true,
+        "date": "2026-11-11",
+        "sha256": "1d52b11fdef40b565f9cda6242f2b5290c0d38f4bdfe874aa9cb164821e984c1",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      }
+    ],
+    "products": [
+      {
+        "product": "Omeprazol Sandoz 20 mg capsule",
+        "substance": "omeprazol",
+        "strength": "20 mg",
+        "form": "capsule",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/omeprazol.json"
+      },
+      {
+        "product": "Omeprazol Demo A 20 mg capsule",
+        "substance": "omeprazol",
+        "strength": "20 mg",
+        "form": "capsule",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/omeprazol.json"
+      }
+    ],
+    "dose_interval_equivalence": {
+      "capsule|capsule": {
+        "equivalent": null,
+        "rule": "P-STR-01",
+        "note_nl": "Equivalentie tussen deze toedieningsvormen is niet vastgesteld in deze demo. De apotheker beoordeelt dit.",
+        "source": {
+          "doc": "data/smpc/omeprazol.json",
+          "field": "dose_interval_equivalence",
+          "value": null,
+          "date": "2026-11-11",
+          "sha256": "3c152702b9d2d54acb5142f196c8c06ad842ab6487179e6cac13b1b4d00b9e2c",
+          "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+        }
+      }
+    },
+    "contra_indications": {}
+  },
+  "amoxicilline": {
+    "substance": "amoxicilline",
+    "atc": "DEMO-05",
+    "sources": [
+      {
+        "doc": "data/smpc/amoxicilline.json",
+        "field": "substance",
+        "value": "amoxicilline",
+        "date": "2026-11-11",
+        "sha256": "b5ea5f347b61f8cfebfb811fef39fc0033726ef666487e55c12c3e718b67fa2c",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/amoxicilline.json",
+        "field": "strength",
+        "value": "500 mg",
+        "date": "2026-11-11",
+        "sha256": "ffaa85d3ee8ebff7bc7a3bd3fcc999250eedfe8b720ed7a6a9008bb3611c86d1",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/amoxicilline.json",
+        "field": "form",
+        "value": "capsule",
+        "date": "2026-11-11",
+        "sha256": "f358b9a68d7a7d45b1222361c464f2ffd6d202d1b2ff0a59c2afbd2064765899",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/amoxicilline.json",
+        "field": "packages",
+        "value": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "date": "2026-11-11",
+        "sha256": "8da39bbcb2e7ffca6001e20977fce14bf18bef3349a5ede9604d6716ccb19b87",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/amoxicilline.json",
+        "field": "nl_registered",
+        "value": true,
+        "date": "2026-11-11",
+        "sha256": "a5f99d3edc6f380e28da9f8f08012a40d27d4c986eac91d61def23aa113fcf69",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      }
+    ],
+    "products": [
+      {
+        "product": "Amoxicilline CF 500 mg capsule",
+        "substance": "amoxicilline",
+        "strength": "500 mg",
+        "form": "capsule",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/amoxicilline.json"
+      },
+      {
+        "product": "Amoxicilline Demo B 500 mg capsule",
+        "substance": "amoxicilline",
+        "strength": "500 mg",
+        "form": "capsule",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/amoxicilline.json"
+      }
+    ],
+    "dose_interval_equivalence": {
+      "capsule|capsule": {
+        "equivalent": null,
+        "rule": "P-STR-01",
+        "note_nl": "Equivalentie tussen deze toedieningsvormen is niet vastgesteld in deze demo. De apotheker beoordeelt dit.",
+        "source": {
+          "doc": "data/smpc/amoxicilline.json",
+          "field": "dose_interval_equivalence",
+          "value": null,
+          "date": "2026-11-11",
+          "sha256": "ed0940da0b9aa51524f939ede8ae8fef70da2430a783cca22d76f02a0f50e11c",
+          "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+        }
+      }
+    },
+    "contra_indications": {
+      "allergie_penicilline": true
+    }
+  },
+  "levothyroxine": {
+    "substance": "levothyroxine",
+    "atc": "DEMO-06",
+    "sources": [
+      {
+        "doc": "data/smpc/levothyroxine.json",
+        "field": "substance",
+        "value": "levothyroxine",
+        "date": "2026-11-11",
+        "sha256": "b3f4975995078fb78fffd91586dcb953aa54bad1dc4e806b7a54a0a63a52ccd2",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/levothyroxine.json",
+        "field": "strength",
+        "value": "50 mcg",
+        "date": "2026-11-11",
+        "sha256": "37864cab659bb856f5353345ef1f7e68ac9dd61ba0e4f379ee6c1eaf37d88056",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/levothyroxine.json",
+        "field": "form",
+        "value": "tablet",
+        "date": "2026-11-11",
+        "sha256": "d6e8126cb89d859d73e320aa48febf8ed810a0d3a2228b55e4bd18579b3e829f",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/levothyroxine.json",
+        "field": "packages",
+        "value": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "date": "2026-11-11",
+        "sha256": "a80d02b6b8ed038be769f6fc225aeeec01e98de18ff031e74219eee3d7ed04ff",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/levothyroxine.json",
+        "field": "nl_registered",
+        "value": true,
+        "date": "2026-11-11",
+        "sha256": "15f13d50b976aba1902571d45b710665b7f366d33990626f2c7e5ceadb236905",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      }
+    ],
+    "products": [
+      {
+        "product": "Levothyroxine Teva 50 mcg tablet",
+        "substance": "levothyroxine",
+        "strength": "50 mcg",
+        "form": "tablet",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/levothyroxine.json"
+      },
+      {
+        "product": "Levothyroxine Demo A 50 mcg tablet",
+        "substance": "levothyroxine",
+        "strength": "50 mcg",
+        "form": "tablet",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/levothyroxine.json"
+      }
+    ],
+    "dose_interval_equivalence": {
+      "tablet|capsule": {
+        "equivalent": null,
+        "rule": "P-STR-01",
+        "note_nl": "Equivalentie tussen deze toedieningsvormen is niet vastgesteld in deze demo. De apotheker beoordeelt dit.",
+        "source": {
+          "doc": "data/smpc/levothyroxine.json",
+          "field": "dose_interval_equivalence",
+          "value": null,
+          "date": "2026-11-11",
+          "sha256": "90139020dcd16ff4c5b33aa07e53df126149ea4606fe5bfa303c35875c135f1d",
+          "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+        }
+      }
+    },
+    "contra_indications": {}
+  },
+  "sertraline": {
+    "substance": "sertraline",
+    "atc": "DEMO-07",
+    "sources": [
+      {
+        "doc": "data/smpc/sertraline.json",
+        "field": "substance",
+        "value": "sertraline",
+        "date": "2026-11-11",
+        "sha256": "1995e1b98205d38181994a9796fb93eecbb7bb200b64d283de033054090f3402",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/sertraline.json",
+        "field": "strength",
+        "value": "50 mg",
+        "date": "2026-11-11",
+        "sha256": "1f38619dfdd829fc22a984d96a53b4711f4910263139dad487e9d8c850e1d2e0",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/sertraline.json",
+        "field": "form",
+        "value": "tablet",
+        "date": "2026-11-11",
+        "sha256": "42075de5626e7fb2989f49f53aa2f44b938fa4c4b9a767cb7a3d1dd15c3f7c47",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/sertraline.json",
+        "field": "packages",
+        "value": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "date": "2026-11-11",
+        "sha256": "5e03e2ac29636a841e0cfe3d1fde23687154a7883cb43b7c8230b01f86445bfa",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/sertraline.json",
+        "field": "nl_registered",
+        "value": true,
+        "date": "2026-11-11",
+        "sha256": "a942ae7b3cf760a5c311dc9f461c763af71a6af1b36c76b5ef1a911f826c46ba",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      }
+    ],
+    "products": [
+      {
+        "product": "Sertraline Sandoz 50 mg tablet",
+        "substance": "sertraline",
+        "strength": "50 mg",
+        "form": "tablet",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/sertraline.json"
+      },
+      {
+        "product": "Sertraline Demo A 50 mg tablet",
+        "substance": "sertraline",
+        "strength": "50 mg",
+        "form": "tablet",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/sertraline.json"
+      }
+    ],
+    "dose_interval_equivalence": {
+      "tablet|capsule": {
+        "equivalent": null,
+        "rule": "P-STR-01",
+        "note_nl": "Equivalentie tussen deze toedieningsvormen is niet vastgesteld in deze demo. De apotheker beoordeelt dit.",
+        "source": {
+          "doc": "data/smpc/sertraline.json",
+          "field": "dose_interval_equivalence",
+          "value": null,
+          "date": "2026-11-11",
+          "sha256": "c01e5b318029c4bac3ccc4d4672db64cabf6fc90105b899f6222d3d367a443bc",
+          "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+        }
+      }
+    },
+    "contra_indications": {
+      "zwangerschap": true
+    }
+  },
+  "oxycodon": {
+    "substance": "oxycodon",
+    "atc": "DEMO-08",
+    "sources": [
+      {
+        "doc": "data/smpc/oxycodon.json",
+        "field": "substance",
+        "value": "oxycodon",
+        "date": "2026-11-11",
+        "sha256": "6152a0b35e53128a4d77eb7213fe3ff38ad37ecd4fa12d1d3e17014eb7cb8fd5",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/oxycodon.json",
+        "field": "strength",
+        "value": "10 mg",
+        "date": "2026-11-11",
+        "sha256": "c02a8fd1e6b286c1301e43987b3f1dcf2b779310dc606273e530d92579bcf8c4",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/oxycodon.json",
+        "field": "form",
+        "value": "tablet",
+        "date": "2026-11-11",
+        "sha256": "13e6cce83a7184a75794da5ce3b7f0762e1e8a2dd8a99c02df2767e6c152fc7e",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/oxycodon.json",
+        "field": "packages",
+        "value": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "date": "2026-11-11",
+        "sha256": "be45cc625dec50b41c491c046c0797f5a4c2cc92c4d753c48fe1d6a43859b0cb",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/oxycodon.json",
+        "field": "nl_registered",
+        "value": true,
+        "date": "2026-11-11",
+        "sha256": "5d1ed144f3e1cf7ea641290be2a0adffe480e8df316fc1b7dd4e939087f93189",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      }
+    ],
+    "products": [
+      {
+        "product": "Oxycodon CF 10 mg tablet",
+        "substance": "oxycodon",
+        "strength": "10 mg",
+        "form": "tablet",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/oxycodon.json",
+        "adult_only": true
+      },
+      {
+        "product": "Oxycodon Demo B 10 mg tablet",
+        "substance": "oxycodon",
+        "strength": "10 mg",
+        "form": "tablet",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/oxycodon.json",
+        "adult_only": true
+      }
+    ],
+    "dose_interval_equivalence": {
+      "tablet|capsule": {
+        "equivalent": null,
+        "rule": "P-STR-01",
+        "note_nl": "Equivalentie tussen deze toedieningsvormen is niet vastgesteld in deze demo. De apotheker beoordeelt dit.",
+        "source": {
+          "doc": "data/smpc/oxycodon.json",
+          "field": "dose_interval_equivalence",
+          "value": null,
+          "date": "2026-11-11",
+          "sha256": "7508ea9677d25efffab2500e14ddb4b7009f44974c7775ca1bc804ea3b0cbefc",
+          "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+        }
+      }
+    },
+    "contra_indications": {}
+  },
+  "furosemide": {
+    "substance": "furosemide",
+    "atc": "DEMO-09",
+    "sources": [
+      {
+        "doc": "data/smpc/furosemide.json",
+        "field": "substance",
+        "value": "furosemide",
+        "date": "2026-11-11",
+        "sha256": "f6886fae6c93b7bb721259aed06b68d86ae75185d9a4019a5eda29096c20930c",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/furosemide.json",
+        "field": "strength",
+        "value": "40 mg",
+        "date": "2026-11-11",
+        "sha256": "ca598d70a93503d33f46fece606c90fadb0401a57d1ee00b2b428821ed7de6d4",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/furosemide.json",
+        "field": "form",
+        "value": "tablet",
+        "date": "2026-11-11",
+        "sha256": "7d93745787a11bc10b262fe7b538284d34438f74b9fe6d21fb9cf1f8de51b2b5",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/furosemide.json",
+        "field": "packages",
+        "value": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "date": "2026-11-11",
+        "sha256": "68719e0018f79ecf769a57b45b43a7d76092f3a0fea83021527429f513873ae0",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/furosemide.json",
+        "field": "nl_registered",
+        "value": true,
+        "date": "2026-11-11",
+        "sha256": "85466a787415f7a9b2ef69e4f44a24e956e59844041be47ba402a5520664ccf9",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      }
+    ],
+    "products": [
+      {
+        "product": "Furosemide Teva 40 mg tablet",
+        "substance": "furosemide",
+        "strength": "40 mg",
+        "form": "tablet",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/furosemide.json"
+      },
+      {
+        "product": "Furosemide Demo A 40 mg tablet",
+        "substance": "furosemide",
+        "strength": "40 mg",
+        "form": "tablet",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/furosemide.json"
+      }
+    ],
+    "dose_interval_equivalence": {
+      "tablet|capsule": {
+        "equivalent": null,
+        "rule": "P-STR-01",
+        "note_nl": "Equivalentie tussen deze toedieningsvormen is niet vastgesteld in deze demo. De apotheker beoordeelt dit.",
+        "source": {
+          "doc": "data/smpc/furosemide.json",
+          "field": "dose_interval_equivalence",
+          "value": null,
+          "date": "2026-11-11",
+          "sha256": "d16c453dc1f09d54a5f2b10260e287497a753722b22d6a2433e29d207e3c798f",
+          "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+        }
+      }
+    },
+    "contra_indications": {}
+  },
+  "prednison": {
+    "substance": "prednison",
+    "atc": "DEMO-10",
+    "sources": [
+      {
+        "doc": "data/smpc/prednison.json",
+        "field": "substance",
+        "value": "prednison",
+        "date": "2026-11-11",
+        "sha256": "8aefd2f37e2a32f5b2c75d937485976922a95f86e10c30dc4963cf445d9c7b4a",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/prednison.json",
+        "field": "strength",
+        "value": "5 mg",
+        "date": "2026-11-11",
+        "sha256": "a00d8eb884f964b42587c9a39d7409e51b1ff913cf2ded137cf3e85d197ef58d",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/prednison.json",
+        "field": "form",
+        "value": "tablet",
+        "date": "2026-11-11",
+        "sha256": "d2b9b3165ad5d3753535750ad993d7d69d5a637a80a399b486ee34746a89ec17",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/prednison.json",
+        "field": "packages",
+        "value": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "date": "2026-11-11",
+        "sha256": "44237c71a96650ef2098908e976d72f60d8643eb1e0a2a6c8b4b6fbefd05db8d",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/prednison.json",
+        "field": "nl_registered",
+        "value": true,
+        "date": "2026-11-11",
+        "sha256": "2955dee90ac84aebb6a8deb67c5cf728db36d78e780dced7d07ff1c4f6b1560b",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      }
+    ],
+    "products": [
+      {
+        "product": "Prednison CF 5 mg tablet",
+        "substance": "prednison",
+        "strength": "5 mg",
+        "form": "tablet",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/prednison.json"
+      },
+      {
+        "product": "Prednison Demo B 5 mg tablet",
+        "substance": "prednison",
+        "strength": "5 mg",
+        "form": "tablet",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/prednison.json"
+      }
+    ],
+    "dose_interval_equivalence": {
+      "tablet|capsule": {
+        "equivalent": null,
+        "rule": "P-STR-01",
+        "note_nl": "Equivalentie tussen deze toedieningsvormen is niet vastgesteld in deze demo. De apotheker beoordeelt dit.",
+        "source": {
+          "doc": "data/smpc/prednison.json",
+          "field": "dose_interval_equivalence",
+          "value": null,
+          "date": "2026-11-11",
+          "sha256": "05bd1cefd59b5e3d73f3d87e5a57fb2e1c9092cf2d0ed922429dee8e6836f115",
+          "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+        }
+      }
+    },
+    "contra_indications": {}
+  },
+  "insuline glargine": {
+    "substance": "insuline glargine",
+    "atc": "DEMO-11",
+    "sources": [
+      {
+        "doc": "data/smpc/insuline glargine.json",
+        "field": "substance",
+        "value": "insuline glargine",
+        "date": "2026-11-11",
+        "sha256": "5c62b51cef5737e7fba9e37c067fe0e4ec8b4dda3a08ae029d42612c88219150",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/insuline glargine.json",
+        "field": "strength",
+        "value": "100 E/ml",
+        "date": "2026-11-11",
+        "sha256": "0d904a839aaf97b8f43d992ec40d25ec24dbff2a1f1ae2f7525b94e94d4416be",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/insuline glargine.json",
+        "field": "form",
+        "value": "injectievloeistof",
+        "date": "2026-11-11",
+        "sha256": "3951e14eadec60f691e0fcdc47a625c251206b911602a6e26cffbdee145c8e31",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/insuline glargine.json",
+        "field": "packages",
+        "value": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "date": "2026-11-11",
+        "sha256": "2b5ada6cdef147606c3baf8bff6812b3b479c363e04994080468dcfcb55011d0",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/insuline glargine.json",
+        "field": "nl_registered",
+        "value": true,
+        "date": "2026-11-11",
+        "sha256": "e33393469da53fd07f383bcfa180b58fff8912a448413bed77c000932bbe87b8",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      }
+    ],
+    "products": [
+      {
+        "product": "Insuline glargine Demo 100 E/ml injectievloeistof",
+        "substance": "insuline glargine",
+        "strength": "100 E/ml",
+        "form": "injectievloeistof",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/insuline glargine.json"
+      },
+      {
+        "product": "Insuline glargine Demo A 100 E/ml injectievloeistof",
+        "substance": "insuline glargine",
+        "strength": "100 E/ml",
+        "form": "injectievloeistof",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/insuline glargine.json"
+      }
+    ],
+    "dose_interval_equivalence": {
+      "injectievloeistof|capsule": {
+        "equivalent": null,
+        "rule": "P-STR-01",
+        "note_nl": "Equivalentie tussen deze toedieningsvormen is niet vastgesteld in deze demo. De apotheker beoordeelt dit.",
+        "source": {
+          "doc": "data/smpc/insuline glargine.json",
+          "field": "dose_interval_equivalence",
+          "value": null,
+          "date": "2026-11-11",
+          "sha256": "cd414f09d362ae32bc4e11c95b4fe4070f86c89f86ceb14cad95019ddfcd6967",
+          "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+        }
+      }
+    },
+    "contra_indications": {}
+  },
+  "methylfenidaat": {
+    "substance": "methylfenidaat",
+    "atc": "DEMO-12",
+    "sources": [
+      {
+        "doc": "data/smpc/methylfenidaat.json",
+        "field": "substance",
+        "value": "methylfenidaat",
+        "date": "2026-11-11",
+        "sha256": "7aa84728ea3941ca64bab50263cfa6ceb974540df995a7421f42ef79fbc2100a",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/methylfenidaat.json",
+        "field": "strength",
+        "value": "10 mg",
+        "date": "2026-11-11",
+        "sha256": "190843472399f305d3102819cdef7f6b8ea176768587fac5c09491b41fe2b1f3",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/methylfenidaat.json",
+        "field": "form",
+        "value": "tablet",
+        "date": "2026-11-11",
+        "sha256": "1441cd081f7b89f9f83ff58290b6e4052fb3ca21e05907a895e0df8fa4726647",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/methylfenidaat.json",
+        "field": "packages",
+        "value": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "date": "2026-11-11",
+        "sha256": "253c97c2dc3f79a710a41c041fff3cc4ec01d0820623f11eb48cdbfbfa2b1391",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/methylfenidaat.json",
+        "field": "nl_registered",
+        "value": true,
+        "date": "2026-11-11",
+        "sha256": "3e6631878c240b892ef9ec36018a8c3ebc01342c3bbcc2ee96cfdfa3169f2535",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      }
+    ],
+    "products": [
+      {
+        "product": "Methylfenidaat CF 10 mg tablet",
+        "substance": "methylfenidaat",
+        "strength": "10 mg",
+        "form": "tablet",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/methylfenidaat.json"
+      },
+      {
+        "product": "Methylfenidaat Demo B 10 mg tablet",
+        "substance": "methylfenidaat",
+        "strength": "10 mg",
+        "form": "tablet",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/methylfenidaat.json"
+      }
+    ],
+    "dose_interval_equivalence": {
+      "tablet|capsule": {
+        "equivalent": null,
+        "rule": "P-STR-01",
+        "note_nl": "Equivalentie tussen deze toedieningsvormen is niet vastgesteld in deze demo. De apotheker beoordeelt dit.",
+        "source": {
+          "doc": "data/smpc/methylfenidaat.json",
+          "field": "dose_interval_equivalence",
+          "value": null,
+          "date": "2026-11-11",
+          "sha256": "35805e028b9edc2ea8493a012d3e22781dbd65640aea5048a6a7757de538fbba",
+          "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+        }
+      }
+    },
+    "contra_indications": {}
+  },
+  "tamsulosine": {
+    "substance": "tamsulosine",
+    "atc": "DEMO-13",
+    "sources": [
+      {
+        "doc": "data/smpc/tamsulosine.json",
+        "field": "substance",
+        "value": "tamsulosine",
+        "date": "2026-11-11",
+        "sha256": "169e4e4f69431a8d82b338725b497c80d1d5e259ab7cb2823c58f1ff8e9c8918",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/tamsulosine.json",
+        "field": "strength",
+        "value": "0,4 mg",
+        "date": "2026-11-11",
+        "sha256": "00b3e7d53db6e523004f942653ad2af7eb050e713df80639617b6aaa7c52b29c",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/tamsulosine.json",
+        "field": "form",
+        "value": "capsule",
+        "date": "2026-11-11",
+        "sha256": "b5f9ba4f8afb482b422937873b786fa2c90632d9f72056e026ea9e079aea1c67",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/tamsulosine.json",
+        "field": "packages",
+        "value": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "date": "2026-11-11",
+        "sha256": "d8e42f82967f1f0b0042f1cd245958385f3084832aff5b1ceabfaf68b11f831a",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/tamsulosine.json",
+        "field": "nl_registered",
+        "value": true,
+        "date": "2026-11-11",
+        "sha256": "66608712efff9feaa38eae326044d5540b933cfeff7f59e3db525e36a96906e3",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      }
+    ],
+    "products": [
+      {
+        "product": "Tamsulosine Teva 0,4 mg capsule",
+        "substance": "tamsulosine",
+        "strength": "0,4 mg",
+        "form": "capsule",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/tamsulosine.json"
+      },
+      {
+        "product": "Tamsulosine Demo A 0,4 mg capsule",
+        "substance": "tamsulosine",
+        "strength": "0,4 mg",
+        "form": "capsule",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/tamsulosine.json"
+      }
+    ],
+    "dose_interval_equivalence": {
+      "capsule|capsule": {
+        "equivalent": null,
+        "rule": "P-STR-01",
+        "note_nl": "Equivalentie tussen deze toedieningsvormen is niet vastgesteld in deze demo. De apotheker beoordeelt dit.",
+        "source": {
+          "doc": "data/smpc/tamsulosine.json",
+          "field": "dose_interval_equivalence",
+          "value": null,
+          "date": "2026-11-11",
+          "sha256": "f5757bd4098b8524dd7d6edfc9093cb54ed06bb463fdfb9c3b6a867c0cf385a8",
+          "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+        }
+      }
+    },
+    "contra_indications": {}
+  },
+  "escitalopram": {
+    "substance": "escitalopram",
+    "atc": "DEMO-14",
+    "sources": [
+      {
+        "doc": "data/smpc/escitalopram.json",
+        "field": "substance",
+        "value": "escitalopram",
+        "date": "2026-11-11",
+        "sha256": "f498b622feacfec1cf994fe2090b6eda9da5c65d9565ac1f145d73825c5c0e9c",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/escitalopram.json",
+        "field": "strength",
+        "value": "10 mg",
+        "date": "2026-11-11",
+        "sha256": "ef274728e8789d208224544365163aeade5a7edb907c84ddb40bde909c2eee53",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/escitalopram.json",
+        "field": "form",
+        "value": "tablet",
+        "date": "2026-11-11",
+        "sha256": "5a6d0307aec26ec29c75e9cfa3d4de895ed1bedf5e72a8899590417ca6f6ac7e",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/escitalopram.json",
+        "field": "packages",
+        "value": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "date": "2026-11-11",
+        "sha256": "f0d0f6e0ce47a5b6865ec6f2ec2bb4458b7dc2f6f2d62c6dc34b49e0b36c5345",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/escitalopram.json",
+        "field": "nl_registered",
+        "value": true,
+        "date": "2026-11-11",
+        "sha256": "4cace04f5114f71bb45d3dc4bae6bd6e5fa90ba0a4b8edb36d06033be7de0dce",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      }
+    ],
+    "products": [
+      {
+        "product": "Escitalopram CF 10 mg tablet",
+        "substance": "escitalopram",
+        "strength": "10 mg",
+        "form": "tablet",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/escitalopram.json"
+      },
+      {
+        "product": "Escitalopram Demo B 10 mg tablet",
+        "substance": "escitalopram",
+        "strength": "10 mg",
+        "form": "tablet",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/escitalopram.json"
+      }
+    ],
+    "dose_interval_equivalence": {
+      "tablet|capsule": {
+        "equivalent": null,
+        "rule": "P-STR-01",
+        "note_nl": "Equivalentie tussen deze toedieningsvormen is niet vastgesteld in deze demo. De apotheker beoordeelt dit.",
+        "source": {
+          "doc": "data/smpc/escitalopram.json",
+          "field": "dose_interval_equivalence",
+          "value": null,
+          "date": "2026-11-11",
+          "sha256": "dab8f6aabfb85c41c06651ebfd7d892da09a75256ecb762417aeaa8230ad1838",
+          "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+        }
+      }
+    },
+    "contra_indications": {}
+  },
+  "naproxen": {
+    "substance": "naproxen",
+    "atc": "DEMO-15",
+    "sources": [
+      {
+        "doc": "data/smpc/naproxen.json",
+        "field": "substance",
+        "value": "naproxen",
+        "date": "2026-11-11",
+        "sha256": "9db90d1590b104318cf6399a60c15aa09e5c598fc1e9b6ee52fedafd5901fed6",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/naproxen.json",
+        "field": "strength",
+        "value": "500 mg",
+        "date": "2026-11-11",
+        "sha256": "17e017eefa7a6ad9b03ed70fb63cb75e4c27da15612425c87797301d6f1b9816",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/naproxen.json",
+        "field": "form",
+        "value": "tablet",
+        "date": "2026-11-11",
+        "sha256": "3987a5a6c88f3cd07d44bad5704dc3f4fa4fdf48a36c1a38edadc33bd5a4c801",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/naproxen.json",
+        "field": "packages",
+        "value": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "date": "2026-11-11",
+        "sha256": "d92feac515345fcc409020f30d9401554d262e51ecb840d22755631f33346cb5",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/naproxen.json",
+        "field": "nl_registered",
+        "value": true,
+        "date": "2026-11-11",
+        "sha256": "aee8412ea152741a28ca9c7d2c71bd2441c8af8a9dc50806cf1510892f51ff80",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      }
+    ],
+    "products": [
+      {
+        "product": "Naproxen Sandoz 500 mg tablet",
+        "substance": "naproxen",
+        "strength": "500 mg",
+        "form": "tablet",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/naproxen.json"
+      },
+      {
+        "product": "Naproxen Demo A 500 mg tablet",
+        "substance": "naproxen",
+        "strength": "500 mg",
+        "form": "tablet",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/naproxen.json"
+      }
+    ],
+    "dose_interval_equivalence": {
+      "tablet|capsule": {
+        "equivalent": null,
+        "rule": "P-STR-01",
+        "note_nl": "Equivalentie tussen deze toedieningsvormen is niet vastgesteld in deze demo. De apotheker beoordeelt dit.",
+        "source": {
+          "doc": "data/smpc/naproxen.json",
+          "field": "dose_interval_equivalence",
+          "value": null,
+          "date": "2026-11-11",
+          "sha256": "f247be3165a03fd8e4b8074aca9a1754186fa5daeb902c24d8b082cc51fe3188",
+          "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+        }
+      }
+    },
+    "contra_indications": {
+      "allergie_nsaid": true
+    }
+  },
+  "paracetamol": {
+    "substance": "paracetamol",
+    "atc": "DEMO-16",
+    "sources": [
+      {
+        "doc": "data/smpc/paracetamol.json",
+        "field": "substance",
+        "value": "paracetamol",
+        "date": "2026-11-11",
+        "sha256": "04fbef81c1bc9010a842f7b7c83beb3bdba292194058016d27555bb4fa61d324",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/paracetamol.json",
+        "field": "strength",
+        "value": "500 mg",
+        "date": "2026-11-11",
+        "sha256": "4352abe22a7100b45b93aa15d73f7094c7ef90fa43afccf83335cb25bfe405ac",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/paracetamol.json",
+        "field": "form",
+        "value": "zetpil",
+        "date": "2026-11-11",
+        "sha256": "7cddafb763cde8ca59920b9541e7b3845630a4d36016c49dad3a5bef47b32cd9",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/paracetamol.json",
+        "field": "packages",
+        "value": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "date": "2026-11-11",
+        "sha256": "bbbbf2747e44298b9eefa5a0a9e84a6aea52f54f87cdfe378919b96b084b051a",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/paracetamol.json",
+        "field": "nl_registered",
+        "value": true,
+        "date": "2026-11-11",
+        "sha256": "9310c5285e5b4d67902bdff05a5c1c428308f8866f2042f1e56624363dd79ae5",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      }
+    ],
+    "products": [
+      {
+        "product": "Paracetamol CF 500 mg zetpil",
+        "substance": "paracetamol",
+        "strength": "500 mg",
+        "form": "zetpil",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/paracetamol.json"
+      },
+      {
+        "product": "Paracetamol Demo B 500 mg zetpil",
+        "substance": "paracetamol",
+        "strength": "500 mg",
+        "form": "zetpil",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/paracetamol.json"
+      }
+    ],
+    "dose_interval_equivalence": {
+      "zetpil|capsule": {
+        "equivalent": null,
+        "rule": "P-STR-01",
+        "note_nl": "Equivalentie tussen deze toedieningsvormen is niet vastgesteld in deze demo. De apotheker beoordeelt dit.",
+        "source": {
+          "doc": "data/smpc/paracetamol.json",
+          "field": "dose_interval_equivalence",
+          "value": null,
+          "date": "2026-11-11",
+          "sha256": "4f6acf41940ad6094966fa2499651529e777a60b92e8d728ac0ea6c380ef24e1",
+          "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+        }
+      }
+    },
+    "contra_indications": {}
+  },
+  "amoxicilline/clavulaanzuur": {
+    "substance": "amoxicilline/clavulaanzuur",
+    "atc": "DEMO-17",
+    "sources": [
+      {
+        "doc": "data/smpc/amoxicilline-clavulaanzuur.json",
+        "field": "substance",
+        "value": "amoxicilline/clavulaanzuur",
+        "date": "2026-11-11",
+        "sha256": "8f97687014f15a2ec7248aef9e0af1cdace799a4f6ee35497b45c42516cac82a",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/amoxicilline-clavulaanzuur.json",
+        "field": "strength",
+        "value": "500/125 mg",
+        "date": "2026-11-11",
+        "sha256": "b37d365909cee52391adc8eb45c13e6ea673cb949c0c2a8f58c21570ab0a3495",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/amoxicilline-clavulaanzuur.json",
+        "field": "form",
+        "value": "tablet",
+        "date": "2026-11-11",
+        "sha256": "9eba545a5b069a97b54b50f6abc052d0b1a4f772b081e17e871b9455a804f413",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/amoxicilline-clavulaanzuur.json",
+        "field": "packages",
+        "value": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "date": "2026-11-11",
+        "sha256": "eeec8b6cde9ae731d37fe7e86f20ac8b1b05b64b0e99f9ceb13098a396c954ba",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/amoxicilline-clavulaanzuur.json",
+        "field": "nl_registered",
+        "value": true,
+        "date": "2026-11-11",
+        "sha256": "95083ccb3c3012fe6d745ec313431e72860c6589d25d785d8f747d08ef971091",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      }
+    ],
+    "products": [
+      {
+        "product": "Amoxicilline/clavulaanzuur CF 500/125 mg tablet",
+        "substance": "amoxicilline/clavulaanzuur",
+        "strength": "500/125 mg",
+        "form": "tablet",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/amoxicilline-clavulaanzuur.json"
+      },
+      {
+        "product": "Amoxicilline/clavulaanzuur Demo B 500/125 mg tablet",
+        "substance": "amoxicilline/clavulaanzuur",
+        "strength": "500/125 mg",
+        "form": "tablet",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/amoxicilline-clavulaanzuur.json"
+      }
+    ],
+    "dose_interval_equivalence": {
+      "tablet|capsule": {
+        "equivalent": null,
+        "rule": "P-STR-01",
+        "note_nl": "Equivalentie tussen deze toedieningsvormen is niet vastgesteld in deze demo. De apotheker beoordeelt dit.",
+        "source": {
+          "doc": "data/smpc/amoxicilline-clavulaanzuur.json",
+          "field": "dose_interval_equivalence",
+          "value": null,
+          "date": "2026-11-11",
+          "sha256": "e2c8fa098cd8385b38b291155ef0ef3f2a40f3c36ff9a53d2ba0f4f8fbde403a",
+          "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+        }
+      }
+    },
+    "contra_indications": {
+      "allergie_penicilline": true
+    }
+  },
+  "hydrochloorthiazide": {
+    "substance": "hydrochloorthiazide",
+    "atc": "DEMO-18",
+    "sources": [
+      {
+        "doc": "data/smpc/hydrochloorthiazide.json",
+        "field": "substance",
+        "value": "hydrochloorthiazide",
+        "date": "2026-11-11",
+        "sha256": "931725db0828f9e94b1fc7058ed87e65b5f897b0e7437a049b96df3fd3b63ca0",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/hydrochloorthiazide.json",
+        "field": "strength",
+        "value": "25 mg",
+        "date": "2026-11-11",
+        "sha256": "a27511fabc943541881cb17ce0cdfe4bf9b24343a25488dd3dc4b11a4270f0fc",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/hydrochloorthiazide.json",
+        "field": "form",
+        "value": "tablet",
+        "date": "2026-11-11",
+        "sha256": "7c910752f1a59dbdef859399447d7950a147b6bffce48a0c5d3d6b90a632f3b3",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/hydrochloorthiazide.json",
+        "field": "packages",
+        "value": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "date": "2026-11-11",
+        "sha256": "a57f9820bc731b0651ca87d2fd6f54f84471738a84b3626b6a74640d791960d3",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/hydrochloorthiazide.json",
+        "field": "nl_registered",
+        "value": true,
+        "date": "2026-11-11",
+        "sha256": "53e6764689ca4c6fae254074e0ef9deec5bacde416286f05d9a66dc0ecc6e910",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      }
+    ],
+    "products": [
+      {
+        "product": "Hydrochloorthiazide Teva 25 mg tablet",
+        "substance": "hydrochloorthiazide",
+        "strength": "25 mg",
+        "form": "tablet",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/hydrochloorthiazide.json"
+      },
+      {
+        "product": "Hydrochloorthiazide Demo A 25 mg tablet",
+        "substance": "hydrochloorthiazide",
+        "strength": "25 mg",
+        "form": "tablet",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/hydrochloorthiazide.json"
+      }
+    ],
+    "dose_interval_equivalence": {
+      "tablet|capsule": {
+        "equivalent": null,
+        "rule": "P-STR-01",
+        "note_nl": "Equivalentie tussen deze toedieningsvormen is niet vastgesteld in deze demo. De apotheker beoordeelt dit.",
+        "source": {
+          "doc": "data/smpc/hydrochloorthiazide.json",
+          "field": "dose_interval_equivalence",
+          "value": null,
+          "date": "2026-11-11",
+          "sha256": "2ff7a3210f5a986229ed28cb91ca270d00018c9da0b032b87ed0a87f15aade71",
+          "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+        }
+      }
+    },
+    "contra_indications": {}
+  },
+  "pantoprazol": {
+    "substance": "pantoprazol",
+    "atc": "DEMO-19",
+    "sources": [
+      {
+        "doc": "data/smpc/pantoprazol.json",
+        "field": "substance",
+        "value": "pantoprazol",
+        "date": "2026-11-11",
+        "sha256": "54dbcfd313100793693560dd978c5679b87460b7891bc7837e68f2feb379db8b",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/pantoprazol.json",
+        "field": "strength",
+        "value": "40 mg",
+        "date": "2026-11-11",
+        "sha256": "a57da675a85885d5c403e6247fc654d9a54659d615af22bc0e12e5d5f717b280",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/pantoprazol.json",
+        "field": "form",
+        "value": "tablet",
+        "date": "2026-11-11",
+        "sha256": "dc40e3b2aeed0de88cabc91e9c31f9da78286707e1323cd7b0a2da5b7c3d4c7a",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/pantoprazol.json",
+        "field": "packages",
+        "value": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "date": "2026-11-11",
+        "sha256": "8bd5940c0f779c22dd8da207dd2293a6137a9e42ff7b55fe55dcb2a56f9aa21b",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/pantoprazol.json",
+        "field": "nl_registered",
+        "value": true,
+        "date": "2026-11-11",
+        "sha256": "f294809621e8826d2682a8dbe02372024d1250afe20e9a31d5194e1542be36d7",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      }
+    ],
+    "products": [
+      {
+        "product": "Pantoprazol Sandoz 40 mg tablet",
+        "substance": "pantoprazol",
+        "strength": "40 mg",
+        "form": "tablet",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/pantoprazol.json"
+      },
+      {
+        "product": "Pantoprazol Demo A 40 mg tablet",
+        "substance": "pantoprazol",
+        "strength": "40 mg",
+        "form": "tablet",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/pantoprazol.json"
+      }
+    ],
+    "dose_interval_equivalence": {
+      "tablet|capsule": {
+        "equivalent": null,
+        "rule": "P-STR-01",
+        "note_nl": "Equivalentie tussen deze toedieningsvormen is niet vastgesteld in deze demo. De apotheker beoordeelt dit.",
+        "source": {
+          "doc": "data/smpc/pantoprazol.json",
+          "field": "dose_interval_equivalence",
+          "value": null,
+          "date": "2026-11-11",
+          "sha256": "2d1fc69f1cd2f894dcd71bb92e6c24d965d6ecfba4bc64e6d1a3fb98e17ad628",
+          "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+        }
+      }
+    },
+    "contra_indications": {}
+  },
+  "azitromycine": {
+    "substance": "azitromycine",
+    "atc": "DEMO-20",
+    "sources": [
+      {
+        "doc": "data/smpc/azitromycine.json",
+        "field": "substance",
+        "value": "azitromycine",
+        "date": "2026-11-11",
+        "sha256": "87b699997ab4068cec455610136ff3ab35688463484982a4ab23e62676f9d48c",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/azitromycine.json",
+        "field": "strength",
+        "value": "500 mg",
+        "date": "2026-11-11",
+        "sha256": "30c75cc9788ff71c4bc06bde5ce5da72c6ec34e331ef311384e41c489c07c337",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/azitromycine.json",
+        "field": "form",
+        "value": "tablet",
+        "date": "2026-11-11",
+        "sha256": "362a58f9084990ce6c53b38cbac4fc943a607c9f8877e2ff0baa052cf10ae3a8",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/azitromycine.json",
+        "field": "packages",
+        "value": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "date": "2026-11-11",
+        "sha256": "14bf9c7f65013fccbbede47dfc63cf3a2d86f43cc433005b3c7bccb04ccb36a9",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      },
+      {
+        "doc": "data/smpc/azitromycine.json",
+        "field": "nl_registered",
+        "value": true,
+        "date": "2026-11-11",
+        "sha256": "26117854f29902c1bb97cb03363feea32ee001048dded13b1de5ddf9c00ed90c",
+        "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+      }
+    ],
+    "products": [
+      {
+        "product": "Azitromycine CF 500 mg tablet",
+        "substance": "azitromycine",
+        "strength": "500 mg",
+        "form": "tablet",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/azitromycine.json"
+      },
+      {
+        "product": "Azitromycine Demo B 500 mg tablet",
+        "substance": "azitromycine",
+        "strength": "500 mg",
+        "form": "tablet",
+        "packages": [
+          "30 stuks",
+          "60 stuks",
+          "90 stuks"
+        ],
+        "nl_registered": true,
+        "foreign_registration": null,
+        "smpc_ref": "data/smpc/azitromycine.json"
+      }
+    ],
+    "dose_interval_equivalence": {
+      "tablet|capsule": {
+        "equivalent": null,
+        "rule": "P-STR-01",
+        "note_nl": "Equivalentie tussen deze toedieningsvormen is niet vastgesteld in deze demo. De apotheker beoordeelt dit.",
+        "source": {
+          "doc": "data/smpc/azitromycine.json",
+          "field": "dose_interval_equivalence",
+          "value": null,
+          "date": "2026-11-11",
+          "sha256": "5ec343f23815f67142f3622ea21624c8bf58489fff0739f77ed6ccc39e5952b4",
+          "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+        }
+      }
+    },
+    "contra_indications": {}
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "synthetic": true,
+  "warning": "Geen officiële SmPC. Geen klinische equivalentie afgeleid.",
+  "fields": [
+    {
+      "doc": "data/smpc/salbutamol.json",
+      "field": "substance",
+      "value": "salbutamol",
+      "date": "2026-11-11",
+      "sha256": "11bdb3f812eb3c7b2eccb5c5edc4c1eeeeddc7595383a83956db483ee14fb739",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/salbutamol.json",
+      "field": "strength",
+      "value": "100 mcg",
+      "date": "2026-11-11",
+      "sha256": "bfadab2aa7f2d7c2f8fa2bd32967e1d5ccae531d66056d4153582f67652a6085",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/salbutamol.json",
+      "field": "form",
+      "value": "inhalatiepoeder",
+      "date": "2026-11-11",
+      "sha256": "73520b54e1d69e8acf1b86ba8d5304faa90a2f71457be7c8b6aaf533947fae01",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/salbutamol.json",
+      "field": "packages",
+      "value": [
+        "30 stuks",
+        "60 stuks",
+        "90 stuks"
+      ],
+      "date": "2026-11-11",
+      "sha256": "1b89d93da6c6c687d295109585a1c995aaa628b6c4e4967ab80776abeb110988",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/salbutamol.json",
+      "field": "nl_registered",
+      "value": true,
+      "date": "2026-11-11",
+      "sha256": "6a8c63bb9aa80db51635b22b2bfcfd57ba48648d0670fd6d89ef77072667cd13",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    }
+  ]
+}

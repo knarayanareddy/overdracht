@@ -1,0 +1,76 @@
+{
+  "synthetic": true,
+  "note": "Leestijdfixtures; geen klinische validatie. R-10 is een extra synthetische tekst.",
+  "fixtures": [
+    {
+      "id": "R-01",
+      "story_id": "S-01",
+      "text": "Ik slaap al een tijd slecht en mijn knie doet pijn bij het traplopen.\nOok heb ik sinds vorige maand meer last van mijn maag.\nIk maak me zorgen omdat ik zoveel verschillende dingen tegelijk heb.\nDe apotheker heeft uitgelegd dat het hetzelfde middel is.\nIk wil graag weten welke klachten we vandaag kunnen bespreken.\nDe metformine heb ik vorige maand in een andere verpakking gekregen.\nOpen vragen:\nWilt u vertellen wat u al heeft geprobeerd?",
+      "words": 76,
+      "estimated_seconds_at_200wpm": 23
+    },
+    {
+      "id": "R-02",
+      "story_id": "S-02",
+      "text": "Ik heb last van mijn schouder.\nWanneer het precies begon weet ik niet meer.\nHet lijkt al een hele tijd zo te zijn.\nIk hoop dat u met me mee kunt kijken.\nParacetamol zetpillen gebruik ik soms.\nOpen vragen:\nWilt u vertellen wat u al heeft geprobeerd?",
+      "words": 47,
+      "estimated_seconds_at_200wpm": 14
+    },
+    {
+      "id": "R-03",
+      "story_id": "S-03",
+      "text": "Ik slik elke dag verschillende tabletten.\nIk weet niet of dat verder iets veranderd heeft.\nMijn vraag voor vandaag is vooral hoe we het overzicht kunnen houden.\nDe sertraline heb ik in een ander doosje gekregen.\nOpen vragen:\nWanneer is dit begonnen of veranderd?\nWilt u vertellen wat u al heeft geprobeerd?",
+      "words": 52,
+      "estimated_seconds_at_200wpm": 16
+    },
+    {
+      "id": "R-04",
+      "story_id": "S-04",
+      "text": "ik ben met die nieuwe puffers gestopt, ik werd er dizzy van.\nIk heb dat nog niet aan de apotheek of de praktijk verteld.\nVerder gaat het overdag wel, maar ik wil graag vertellen wat de verandering met mij deed.\nOpen vragen:\nWanneer is dit begonnen of veranderd?\nWilt u vertellen wat u al heeft geprobeerd?",
+      "words": 56,
+      "estimated_seconds_at_200wpm": 17
+    },
+    {
+      "id": "R-05",
+      "story_id": "S-05",
+      "text": "De apotheker zei dat alleen het merk anders was en dat de werkzame stof hetzelfde bleef.\nDat is voor mij duidelijk.\nIk wil nog vragen hoe ik de uitleg aan mijn partner kan doorgeven.\nMijn nieuwe salbutamol inhalator zit in een andere verpakking.\nOpen vragen:\nWanneer is dit begonnen of veranderd?\nWilt u vertellen wat u al heeft geprobeerd?",
+      "words": 59,
+      "estimated_seconds_at_200wpm": 18
+    },
+    {
+      "id": "R-06",
+      "story_id": "S-06",
+      "text": "Ik denk dat de apotheek een fout heeft gemaakt.\nIk heb het nieuwe doosje niet ontvangen van de bezorger, zegt mijn buurman.\nIk wil graag weten wat er is veranderd.\nIk kreeg omeprazol in een andere verpakking en daar had niemand me over verteld.\nOpen vragen:\nWanneer is dit begonnen of veranderd?\nWilt u vertellen wat u al heeft geprobeerd?",
+      "words": 60,
+      "estimated_seconds_at_200wpm": 18
+    },
+    {
+      "id": "R-07",
+      "story_id": "S-07",
+      "text": "Ik gebruik meer dan vijf medicijnen maar ik kan de namen niet zo opnoemen.\nDe doosjes staan thuis in een bakje.\nIk wil graag weten wie het overzicht bijhoudt.\nMijn furosemide tabletten zaten vorige week in een ander doosje.\nOpen vragen:\nWanneer is dit begonnen of veranderd?\nWilt u vertellen wat u al heeft geprobeerd?",
+      "words": 55,
+      "estimated_seconds_at_200wpm": 17
+    },
+    {
+      "id": "R-08",
+      "story_id": "S-08",
+      "text": "Mijn hoofd voelt al een tijd niet helder.\nSoms duurt het dagen en soms weken.\nIk ben ook moe en mijn rug speelt op.\nIk wil dat we rustig alles langslopen.\nWat is er ookweer veranderd met mijn medicijnen?\nDe andere tabletten kreeg ik vorige week.\nOpen vragen:\nWilt u vertellen wat u al heeft geprobeerd?",
+      "words": 56,
+      "estimated_seconds_at_200wpm": 17
+    },
+    {
+      "id": "R-09",
+      "story_id": "S-09",
+      "text": "Het gaat niet zoals ik wil.\nIk weet niet goed wat ik moet vragen.\nKunt u me helpen?\nOpen vragen:\nWanneer is dit begonnen of veranderd?\nWilt u vertellen wat u al heeft geprobeerd?\nWat hoopt u van het gesprek?\nKunt u vertellen wat er met uw medicijnen is veranderd?",
+      "words": 50,
+      "estimated_seconds_at_200wpm": 15
+    },
+    {
+      "id": "R-10",
+      "story_id": null,
+      "text": "Ik wil graag het overzicht van mijn medicijnen bespreken.\nMijn andere doosje heb ik vorige week gekregen.\nIk hoop dat we vandaag één duidelijk overzicht maken.\nOpen vragen:\nWanneer is dit begonnen of veranderd?\nWilt u vertellen wat u al heeft geprobeerd?",
+      "words": 42,
+      "estimated_seconds_at_200wpm": 13
+    }
+  ]
+}

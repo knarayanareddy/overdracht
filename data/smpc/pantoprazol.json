@@ -1,0 +1,50 @@
+{
+  "synthetic": true,
+  "warning": "Geen officiële SmPC. Geen klinische equivalentie afgeleid.",
+  "fields": [
+    {
+      "doc": "data/smpc/pantoprazol.json",
+      "field": "substance",
+      "value": "pantoprazol",
+      "date": "2026-11-11",
+      "sha256": "54dbcfd313100793693560dd978c5679b87460b7891bc7837e68f2feb379db8b",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/pantoprazol.json",
+      "field": "strength",
+      "value": "40 mg",
+      "date": "2026-11-11",
+      "sha256": "a57da675a85885d5c403e6247fc654d9a54659d615af22bc0e12e5d5f717b280",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/pantoprazol.json",
+      "field": "form",
+      "value": "tablet",
+      "date": "2026-11-11",
+      "sha256": "dc40e3b2aeed0de88cabc91e9c31f9da78286707e1323cd7b0a2da5b7c3d4c7a",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/pantoprazol.json",
+      "field": "packages",
+      "value": [
+        "30 stuks",
+        "60 stuks",
+        "90 stuks"
+      ],
+      "date": "2026-11-11",
+      "sha256": "8bd5940c0f779c22dd8da207dd2293a6137a9e42ff7b55fe55dcb2a56f9aa21b",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/pantoprazol.json",
+      "field": "nl_registered",
+      "value": true,
+      "date": "2026-11-11",
+      "sha256": "f294809621e8826d2682a8dbe02372024d1250afe20e9a31d5194e1542be36d7",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    }
+  ]
+}

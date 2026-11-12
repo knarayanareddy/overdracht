@@ -1,0 +1,16 @@
+node_modules/
+.next/
+out/
+dist/
+coverage/
+*.tsbuildinfo
+.env*
+!.env.example
+test-results/
+playwright-report/
+logs/*.lock
+logs/*.tampered
+logs/survey-responses.jsonl
+next-env.d.ts
+
+public/sw.js

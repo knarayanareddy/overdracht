@@ -1,0 +1,50 @@
+{
+  "synthetic": true,
+  "warning": "Geen officiële SmPC. Geen klinische equivalentie afgeleid.",
+  "fields": [
+    {
+      "doc": "data/smpc/furosemide.json",
+      "field": "substance",
+      "value": "furosemide",
+      "date": "2026-11-11",
+      "sha256": "f6886fae6c93b7bb721259aed06b68d86ae75185d9a4019a5eda29096c20930c",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/furosemide.json",
+      "field": "strength",
+      "value": "40 mg",
+      "date": "2026-11-11",
+      "sha256": "ca598d70a93503d33f46fece606c90fadb0401a57d1ee00b2b428821ed7de6d4",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/furosemide.json",
+      "field": "form",
+      "value": "tablet",
+      "date": "2026-11-11",
+      "sha256": "7d93745787a11bc10b262fe7b538284d34438f74b9fe6d21fb9cf1f8de51b2b5",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/furosemide.json",
+      "field": "packages",
+      "value": [
+        "30 stuks",
+        "60 stuks",
+        "90 stuks"
+      ],
+      "date": "2026-11-11",
+      "sha256": "68719e0018f79ecf769a57b45b43a7d76092f3a0fea83021527429f513873ae0",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/furosemide.json",
+      "field": "nl_registered",
+      "value": true,
+      "date": "2026-11-11",
+      "sha256": "85466a787415f7a9b2ef69e4f44a24e956e59844041be47ba402a5520664ccf9",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    }
+  ]
+}

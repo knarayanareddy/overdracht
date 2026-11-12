@@ -1,0 +1,50 @@
+{
+  "synthetic": true,
+  "warning": "Geen officiële SmPC. Geen klinische equivalentie afgeleid.",
+  "fields": [
+    {
+      "doc": "data/smpc/tamsulosine.json",
+      "field": "substance",
+      "value": "tamsulosine",
+      "date": "2026-11-11",
+      "sha256": "169e4e4f69431a8d82b338725b497c80d1d5e259ab7cb2823c58f1ff8e9c8918",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/tamsulosine.json",
+      "field": "strength",
+      "value": "0,4 mg",
+      "date": "2026-11-11",
+      "sha256": "00b3e7d53db6e523004f942653ad2af7eb050e713df80639617b6aaa7c52b29c",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/tamsulosine.json",
+      "field": "form",
+      "value": "capsule",
+      "date": "2026-11-11",
+      "sha256": "b5f9ba4f8afb482b422937873b786fa2c90632d9f72056e026ea9e079aea1c67",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/tamsulosine.json",
+      "field": "packages",
+      "value": [
+        "30 stuks",
+        "60 stuks",
+        "90 stuks"
+      ],
+      "date": "2026-11-11",
+      "sha256": "d8e42f82967f1f0b0042f1cd245958385f3084832aff5b1ceabfaf68b11f831a",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/tamsulosine.json",
+      "field": "nl_registered",
+      "value": true,
+      "date": "2026-11-11",
+      "sha256": "66608712efff9feaa38eae326044d5540b933cfeff7f59e3db525e36a96906e3",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "synthetic": true,
+  "warning": "Geen officiële SmPC. Geen klinische equivalentie afgeleid.",
+  "fields": [
+    {
+      "doc": "data/smpc/metformine.json",
+      "field": "substance",
+      "value": "metformine",
+      "date": "2026-11-11",
+      "sha256": "3ff441adea9ccd1ff1664e109ba1f0538974b5cd9fa12a909cdccb2155922f41",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/metformine.json",
+      "field": "strength",
+      "value": "500 mg",
+      "date": "2026-11-11",
+      "sha256": "e7afaa309ed8d1e9f7d47547c86b6fc74f61d212e6d23af30c3d2e54e8143d1b",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/metformine.json",
+      "field": "form",
+      "value": "tablet",
+      "date": "2026-11-11",
+      "sha256": "f9f04954896bb5ddfaeb86d14168a58726d2d10ea3d1c98208fff22b6110ce67",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/metformine.json",
+      "field": "packages",
+      "value": [
+        "30 stuks",
+        "60 stuks",
+        "90 stuks"
+      ],
+      "date": "2026-11-11",
+      "sha256": "9d328dff670bc29282b20f06d328d0b309a431b94d45618618a79e6b465836d7",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/metformine.json",
+      "field": "nl_registered",
+      "value": true,
+      "date": "2026-11-11",
+      "sha256": "bd27dcae965075c140b0b70cae15be318b211f194ec6d858e761b0bd046cc4ff",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    }
+  ]
+}

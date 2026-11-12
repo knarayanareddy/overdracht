@@ -1,0 +1,50 @@
+{
+  "synthetic": true,
+  "warning": "Geen officiële SmPC. Geen klinische equivalentie afgeleid.",
+  "fields": [
+    {
+      "doc": "data/smpc/escitalopram.json",
+      "field": "substance",
+      "value": "escitalopram",
+      "date": "2026-11-11",
+      "sha256": "f498b622feacfec1cf994fe2090b6eda9da5c65d9565ac1f145d73825c5c0e9c",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/escitalopram.json",
+      "field": "strength",
+      "value": "10 mg",
+      "date": "2026-11-11",
+      "sha256": "ef274728e8789d208224544365163aeade5a7edb907c84ddb40bde909c2eee53",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/escitalopram.json",
+      "field": "form",
+      "value": "tablet",
+      "date": "2026-11-11",
+      "sha256": "5a6d0307aec26ec29c75e9cfa3d4de895ed1bedf5e72a8899590417ca6f6ac7e",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/escitalopram.json",
+      "field": "packages",
+      "value": [
+        "30 stuks",
+        "60 stuks",
+        "90 stuks"
+      ],
+      "date": "2026-11-11",
+      "sha256": "f0d0f6e0ce47a5b6865ec6f2ec2bb4458b7dc2f6f2d62c6dc34b49e0b36c5345",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    },
+    {
+      "doc": "data/smpc/escitalopram.json",
+      "field": "nl_registered",
+      "value": true,
+      "date": "2026-11-11",
+      "sha256": "4cace04f5114f71bb45d3dc4bae6bd6e5fa90ba0a4b8edb36d06033be7de0dce",
+      "quote_nl": "Synthetische testwaarde. Niet ontleend aan een officiële SmPC of preferentielijst."
+    }
+  ]
+}

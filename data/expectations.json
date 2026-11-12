@@ -1,0 +1,516 @@
+{
+  "synthetic": true,
+  "generated_from": "data/cases.json + data/stories.json",
+  "records": [
+    {
+      "case_id": "C-001",
+      "expected": {
+        "valid_min": 1,
+        "valid_max": 9,
+        "must_reject_rules": []
+      },
+      "valid": 3,
+      "refused": 3,
+      "rules": [
+        "P-IMPORT-01",
+        "P-STR-01"
+      ],
+      "top": "C-001-cb71963271"
+    },
+    {
+      "case_id": "C-002",
+      "expected": {
+        "valid_min": 1,
+        "valid_max": 9,
+        "must_reject_rules": []
+      },
+      "valid": 3,
+      "refused": 0,
+      "rules": [],
+      "top": "C-002-5c764def07"
+    },
+    {
+      "case_id": "C-003",
+      "expected": {
+        "valid_min": 1,
+        "valid_max": 9,
+        "must_reject_rules": []
+      },
+      "valid": 3,
+      "refused": 0,
+      "rules": [],
+      "top": "C-003-3ec6755c24"
+    },
+    {
+      "case_id": "C-004",
+      "expected": {
+        "valid_min": 1,
+        "valid_max": 9,
+        "must_reject_rules": []
+      },
+      "valid": 3,
+      "refused": 0,
+      "rules": [],
+      "top": "C-004-5c764def07"
+    },
+    {
+      "case_id": "C-005",
+      "expected": {
+        "valid_min": 1,
+        "valid_max": 9,
+        "must_reject_rules": []
+      },
+      "valid": 3,
+      "refused": 0,
+      "rules": [],
+      "top": "C-005-881b6bba7c"
+    },
+    {
+      "case_id": "C-006",
+      "expected": {
+        "valid_min": 1,
+        "valid_max": 9,
+        "must_reject_rules": []
+      },
+      "valid": 3,
+      "refused": 0,
+      "rules": [],
+      "top": "C-006-227d7b6c9e"
+    },
+    {
+      "case_id": "C-007",
+      "expected": {
+        "valid_min": 1,
+        "valid_max": 9,
+        "must_reject_rules": []
+      },
+      "valid": 3,
+      "refused": 0,
+      "rules": [],
+      "top": "C-007-00e901fa87"
+    },
+    {
+      "case_id": "C-008",
+      "expected": {
+        "valid_min": 1,
+        "valid_max": 9,
+        "must_reject_rules": []
+      },
+      "valid": 3,
+      "refused": 0,
+      "rules": [],
+      "top": "C-008-e665993c87"
+    },
+    {
+      "case_id": "C-009",
+      "expected": {
+        "valid_min": 1,
+        "valid_max": 9,
+        "must_reject_rules": []
+      },
+      "valid": 3,
+      "refused": 0,
+      "rules": [],
+      "top": "C-009-515e5c8e06"
+    },
+    {
+      "case_id": "C-010",
+      "expected": {
+        "valid_min": 1,
+        "valid_max": 9,
+        "must_reject_rules": []
+      },
+      "valid": 3,
+      "refused": 0,
+      "rules": [],
+      "top": "C-010-858a43f2de"
+    },
+    {
+      "case_id": "C-011",
+      "expected": {
+        "valid_min": 1,
+        "valid_max": 9,
+        "must_reject_rules": []
+      },
+      "valid": 3,
+      "refused": 0,
+      "rules": [],
+      "top": "C-011-4c75f3e250"
+    },
+    {
+      "case_id": "C-012",
+      "expected": {
+        "valid_min": 1,
+        "valid_max": 9,
+        "must_reject_rules": []
+      },
+      "valid": 3,
+      "refused": 0,
+      "rules": [],
+      "top": "C-012-ca3302dec9"
+    },
+    {
+      "case_id": "C-013",
+      "expected": {
+        "valid_min": 1,
+        "valid_max": 9,
+        "must_reject_rules": []
+      },
+      "valid": 3,
+      "refused": 0,
+      "rules": [],
+      "top": "C-013-e8264f4dc3"
+    },
+    {
+      "case_id": "C-014",
+      "expected": {
+        "valid_min": 1,
+        "valid_max": 9,
+        "must_reject_rules": []
+      },
+      "valid": 3,
+      "refused": 0,
+      "rules": [],
+      "top": "C-014-a07dc99f43"
+    },
+    {
+      "case_id": "C-015",
+      "expected": {
+        "valid_min": 1,
+        "valid_max": 9,
+        "must_reject_rules": []
+      },
+      "valid": 3,
+      "refused": 0,
+      "rules": [],
+      "top": "C-015-7228c65f12"
+    },
+    {
+      "case_id": "C-016",
+      "expected": {
+        "valid_min": 1,
+        "valid_max": 9,
+        "must_reject_rules": []
+      },
+      "valid": 3,
+      "refused": 0,
+      "rules": [],
+      "top": "C-016-57da60c1bc"
+    },
+    {
+      "case_id": "C-017",
+      "expected": {
+        "valid_min": 1,
+        "valid_max": 9,
+        "must_reject_rules": [
+          "P-STR-01",
+          "P-IMPORT-01"
+        ]
+      },
+      "valid": 3,
+      "refused": 3,
+      "rules": [
+        "P-IMPORT-01",
+        "P-STR-01"
+      ],
+      "top": "C-017-84cfdba4d4"
+    },
+    {
+      "case_id": "C-018",
+      "expected": {
+        "valid_min": 1,
+        "valid_max": 9,
+        "must_reject_rules": []
+      },
+      "valid": 3,
+      "refused": 0,
+      "rules": [],
+      "top": "C-018-689cd54210"
+    },
+    {
+      "case_id": "C-019",
+      "expected": {
+        "valid_min": 1,
+        "valid_max": 9,
+        "must_reject_rules": []
+      },
+      "valid": 3,
+      "refused": 0,
+      "rules": [],
+      "top": "C-019-fd5f17947a"
+    },
+    {
+      "case_id": "C-020",
+      "expected": {
+        "valid_min": 1,
+        "valid_max": 9,
+        "must_reject_rules": []
+      },
+      "valid": 3,
+      "refused": 0,
+      "rules": [],
+      "top": "C-020-82d9bbd331"
+    },
+    {
+      "case_id": "C-021",
+      "expected": {
+        "valid_min": 0,
+        "valid_max": 0,
+        "must_reject_rules": [
+          "P-SUB-01"
+        ]
+      },
+      "valid": 0,
+      "refused": 1,
+      "rules": [
+        "P-SUB-01"
+      ],
+      "top": null
+    },
+    {
+      "case_id": "C-022",
+      "expected": {
+        "valid_min": 0,
+        "valid_max": 0,
+        "must_reject_rules": [
+          "P-PAEDI-01"
+        ]
+      },
+      "valid": 0,
+      "refused": 3,
+      "rules": [
+        "P-PAEDI-01"
+      ],
+      "top": null
+    },
+    {
+      "case_id": "C-023",
+      "expected": {
+        "valid_min": 0,
+        "valid_max": 0,
+        "must_reject_rules": [
+          "P-IMPORT-01"
+        ]
+      },
+      "valid": 0,
+      "refused": 1,
+      "rules": [
+        "P-IMPORT-01"
+      ],
+      "top": null
+    },
+    {
+      "case_id": "C-024",
+      "expected": {
+        "valid_min": 0,
+        "valid_max": 0,
+        "must_reject_rules": [
+          "P-CI-01"
+        ]
+      },
+      "valid": 0,
+      "refused": 3,
+      "rules": [
+        "P-CI-01"
+      ],
+      "top": null
+    },
+    {
+      "case_id": "C-025",
+      "expected": {
+        "valid_min": 0,
+        "valid_max": 0,
+        "must_reject_rules": [
+          "P-UNKNOWN-01"
+        ]
+      },
+      "valid": 0,
+      "refused": 1,
+      "rules": [
+        "P-UNKNOWN-01"
+      ],
+      "top": null
+    },
+    {
+      "case_id": "C-026",
+      "expected": {
+        "valid_min": 0,
+        "valid_max": 0,
+        "must_reject_rules": [
+          "P-CI-01"
+        ]
+      },
+      "valid": 0,
+      "refused": 3,
+      "rules": [
+        "P-CI-01"
+      ],
+      "top": null
+    },
+    {
+      "case_id": "C-027",
+      "expected": {
+        "valid_min": 0,
+        "valid_max": 0,
+        "must_reject_rules": [
+          "P-CI-01"
+        ]
+      },
+      "valid": 0,
+      "refused": 3,
+      "rules": [
+        "P-CI-01"
+      ],
+      "top": null
+    },
+    {
+      "case_id": "C-028",
+      "expected": {
+        "valid_min": 0,
+        "valid_max": 0,
+        "must_reject_rules": [
+          "P-CI-01"
+        ]
+      },
+      "valid": 0,
+      "refused": 3,
+      "rules": [
+        "P-CI-01"
+      ],
+      "top": null
+    },
+    {
+      "case_id": "C-029",
+      "expected": {
+        "valid_min": 0,
+        "valid_max": 0,
+        "must_reject_rules": []
+      },
+      "valid": 0,
+      "refused": 3,
+      "rules": [
+        "P-REIMB-01"
+      ],
+      "top": null
+    },
+    {
+      "case_id": "C-030",
+      "expected": {
+        "valid_min": 0,
+        "valid_max": 0,
+        "must_reject_rules": []
+      },
+      "valid": 0,
+      "refused": 3,
+      "rules": [
+        "P-SOURCE-01"
+      ],
+      "top": null
+    }
+  ],
+  "stories": [
+    {
+      "story_id": "S-01",
+      "case_id": "C-004",
+      "blocked": false,
+      "gaps": 1,
+      "consistency": "bevestigt"
+    },
+    {
+      "story_id": "S-02",
+      "case_id": "C-005",
+      "blocked": false,
+      "gaps": 1,
+      "consistency": "onbekend"
+    },
+    {
+      "story_id": "S-03",
+      "case_id": "C-007",
+      "blocked": false,
+      "gaps": 2,
+      "consistency": "bevestigt"
+    },
+    {
+      "story_id": "S-04",
+      "case_id": "C-017",
+      "blocked": false,
+      "gaps": 2,
+      "consistency": "spreekt_tegen"
+    },
+    {
+      "story_id": "S-05",
+      "case_id": "C-001",
+      "blocked": false,
+      "gaps": 2,
+      "consistency": "bevestigt"
+    },
+    {
+      "story_id": "S-06",
+      "case_id": "C-008",
+      "blocked": false,
+      "gaps": 2,
+      "consistency": "onbekend"
+    },
+    {
+      "story_id": "S-07",
+      "case_id": "C-009",
+      "blocked": false,
+      "gaps": 2,
+      "consistency": "bevestigt"
+    },
+    {
+      "story_id": "S-08",
+      "case_id": "C-010",
+      "blocked": false,
+      "gaps": 1,
+      "consistency": "bevestigt"
+    },
+    {
+      "story_id": "S-09",
+      "case_id": "C-011",
+      "blocked": false,
+      "gaps": 4,
+      "consistency": "onbekend"
+    },
+    {
+      "story_id": "S-10",
+      "case_id": "C-012",
+      "blocked": true,
+      "gaps": 0,
+      "consistency": null
+    },
+    {
+      "story_id": "S-11",
+      "case_id": "C-013",
+      "blocked": true,
+      "gaps": 0,
+      "consistency": null
+    },
+    {
+      "story_id": "S-12",
+      "case_id": "C-014",
+      "blocked": true,
+      "gaps": 0,
+      "consistency": null
+    },
+    {
+      "story_id": "S-13",
+      "case_id": "C-015",
+      "blocked": true,
+      "gaps": 0,
+      "consistency": null
+    },
+    {
+      "story_id": "S-14",
+      "case_id": "C-016",
+      "blocked": true,
+      "gaps": 0,
+      "consistency": null
+    }
+  ],
+  "coverage": {
+    "cases": 30,
+    "with_valid_chain": 20,
+    "zero_valid_chain": 10
+  }
+}
