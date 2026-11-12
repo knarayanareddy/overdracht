@@ -6,6 +6,7 @@ import { runEnsemble } from '@/domain/swarm/ensemble';
 import { buildPersonas } from '@/domain/swarm/personas';
 import { V1_ITEMS,V2_ITEMS,COVERAGE } from '@/domain/swarm/instrument';
 import { exportPdf } from './export';
+import { errorMessageEn } from '@/lib/errors';
 import type { Case, Edit, Task } from '@/domain/types';
 import { readFileSync } from 'node:fs';
 const json=(v:unknown,status=200)=>Response.json(v,{status,headers:{'Cache-Control':'no-store'}});
@@ -16,8 +17,9 @@ function checkOrigin(req:Request){const site=req.headers.get('sec-fetch-site');c
 async function body(req:Request):Promise<Record<string,unknown>>{if(Number(req.headers.get('content-length')||0)>64000)throw new ApiError('E-INPUT-01','Verzoek te groot.',413);try{const raw=await req.text();if(raw.length>64000)throw Error();const b=JSON.parse(raw);if(!b||typeof b!=='object'||Array.isArray(b))throw Error();return b;}catch{throw new ApiError('E-INPUT-01','Ongeldige JSON.',400);}}
 function swarmOptions(url:URL){const runs=Number(url.searchParams.get('runs')||200),seed=Number(url.searchParams.get('seed')||20261111),pressure=Number(url.searchParams.get('pressure')||1),mixing=Number(url.searchParams.get('mixing')||.18),inject=url.searchParams.get('inject')||undefined;if(!Number.isInteger(runs)||runs<1||runs>1000||!Number.isInteger(seed)||seed<0||seed>4294967295||!Number.isFinite(pressure)||pressure<.4||pressure>2||!Number.isFinite(mixing)||mixing<0||mixing>1)throw new ApiError('E-INPUT-01','Ongeldige simulatieparameters.',400);return {runs,options:{seed,pressure,mixing,inject}};}
 export async function handleApi(req:Request):Promise<Response>{
+ const url=new URL(req.url);const lang=(url.searchParams.get('lang')||'nl') as 'nl'|'en';
  try{
-  const url=new URL(req.url),parts=url.pathname.replace(/^\/api\/?/,'').split('/').filter(Boolean),[root,id]=parts,method=req.method;
+  const parts=url.pathname.replace(/^\/api\/?/,'').split('/').filter(Boolean),[root,id]=parts,method=req.method;
   if(method!=='GET')checkOrigin(req);
   if(method==='GET'){
    if(root==='health'){await ensureStore();return json({ok:readAudit().brokenAt===null,rows:readAudit().total,synthetic:true});}
@@ -28,6 +30,8 @@ export async function handleApi(req:Request):Promise<Response>{
    if(root==='story'&&id)return json(await getDraft(id));
    if(root==='summary'&&id)return json(await getSummary(id,url.searchParams.get('story_id')||undefined));
    if(root==='audit')return json(readAudit());
+   if(root==='records')return json({records:await listRecords()});
+   if(root==='substances')return json({table:data.table,substances:data.substances});
    if(root==='swarm'){const {runs,options}=swarmOptions(url);if(runs===200&&options.seed===20261111&&options.pressure===1&&options.mixing===.18&&!options.inject)return json(JSON.parse(readFileSync('data/swarm/runs.json','utf8')));return json(runEnsemble(buildPersonas(),runs,options));}
    if(root==='survey'){const version=url.searchParams.get('version')||'v2';return json({version,items:version==='v1'?V1_ITEMS:V2_ITEMS,coverage:COVERAGE,synthetic:true});}
   }
@@ -48,5 +52,5 @@ export async function handleApi(req:Request):Promise<Response>{
    if(root==='export'&&id){const record=await getRecord(id);if(!record.pharmacist_approval)throw new ApiError('E-APPROVAL-01','Een overdracht vereist goedkeuring door de apotheker.');const storyId=url.searchParams.get('story_id');const summary=storyId?await getSummary(id,storyId):undefined;const format=url.searchParams.get('format')||'json';if(format==='json')return new Response(JSON.stringify({record,summary:summary||null,synthetic:true},null,2),{headers:{'Content-Type':'application/json','Content-Disposition':`attachment; filename="${id}.json"`,'Cache-Control':'no-store'}});if(format==='pdf'){const bytes=await exportPdf(record,summary);return new Response(Buffer.from(bytes),{headers:{'Content-Type':'application/pdf','Content-Disposition':`attachment; filename="${id}.pdf"`,'Cache-Control':'no-store'}});}throw new ApiError('E-INPUT-01','Kies pdf of json.',400);}
   }
   return json({error:{code:'E-NOTFOUND-01',message:'Endpoint niet gevonden.'}},404);
- }catch(e){const known=e instanceof ApiError;const code=known?e.code:String(e instanceof Error?e.message:'E-INTERNAL-01').match(/E-[A-Z]+-\d+/)?.[0]||'E-INTERNAL-01';const status=known?e.status:code.startsWith('E-')&&code!=='E-INTERNAL-01'?409:500;return json({error:{code,message:known||(e instanceof Error&&e.message.startsWith('E-'))?e.message:'De actie kon niet worden uitgevoerd. Probeer opnieuw.'}},status);}
+ }catch(e){const known=e instanceof ApiError;const code=known?e.code:String(e instanceof Error?e.message:'E-INTERNAL-01').match(/E-[A-Z]+-\d+/)?.[0]||'E-INTERNAL-01';const status=known?e.status:code.startsWith('E-')&&code!=='E-INTERNAL-01'?409:500;const nl=known||(e instanceof Error&&e.message.startsWith('E-'))?e.message:'De actie kon niet worden uitgevoerd. Probeer opnieuw.';const message=lang==='en'?errorMessageEn(code)||nl:nl;return json({error:{code,message}},status);}
 }
